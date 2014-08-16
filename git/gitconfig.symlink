@@ -3,27 +3,33 @@
 
 [hub]
         protocol = https
+
 [user]
-        name = AUTHORNAME
-        email = AUTHOREMAIL
-[credential]
-        helper = GIT_CREDENTIAL_HELPER
+        name = Dalton Dick
+        email = daltondick2010@gmail.com
+
 [color]
         diff = auto
         status = auto
         branch = auto
         ui = true
+
 [core]
         excludesfile = ~/.gitignore
         editor = vim
+
 [apply]
         whitespace = nowarn
+
 [mergetool]
         keepBackup = false
+
 [difftool]
         prompt = false
+
 [help]
         autocorrect = 1
+
 [push]
         # See `git help config` (search for push.default)
         # for more information on different options of the below setting.

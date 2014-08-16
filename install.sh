@@ -2,8 +2,7 @@
 #
 # bootstrap installs things.
 
-cd "$(dirname "$0")/.."
-DOTFILES_ROOT=$(pwd)
+DOTFILES_ROOT=~/.dotfiles
 
 set -e
 
@@ -26,29 +25,6 @@ fail () {
   echo ''
   exit
 }
-
-setup_gitconfig () {
-  if ! [ -f git/gitconfig.symlink ]
-  then
-    info 'setup gitconfig'
-
-    git_credential='cache'
-    if [ "$(uname -s)" == "Darwin" ]
-    then
-      git_credential='osxkeychain'
-    fi
-
-    user ' - What is your github author name?'
-    read -e git_authorname
-    user ' - What is your github author email?'
-    read -e git_authoremail
-
-    sed -e "s/AUTHORNAME/$git_authorname/g" -e "s/AUTHOREMAIL/$git_authoremail/g" -e "s/GIT_CREDENTIAL_HELPER/$git_credential/g" git/gitconfig.symlink.example > git/gitconfig.symlink
-
-    success 'gitconfig'
-  fi
-}
-
 
 link_file () {
   local src=$1 dst=$2
@@ -136,7 +112,6 @@ install_dotfiles () {
   done
 }
 
-setup_gitconfig
 install_dotfiles
 
 echo ''
