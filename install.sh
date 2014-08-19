@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 #
 # bootstrap installs things.
+#
+# This file is pretty much stolen from Zach Holman
+# https://www.github.com/holman
 
 DOTFILES_ROOT=~/.dotfiles
 
@@ -99,6 +102,14 @@ link_file () {
     success "linked $1 to $2"
   fi
 }
+
+if [[ ! -d ~/.oh-my-zsh ]]
+then
+  info "Cloning oh-my-zsh"
+  git clone git@github.com:robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+else
+  info "Oh My ZSH already exists"
+fi
 
 install_dotfiles () {
   info 'installing dotfiles'
