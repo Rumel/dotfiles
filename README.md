@@ -2,4 +2,4 @@
 
 
 Install with
-`curl -L https://raw.github.com/rumel/dotfiles/master/bootstrap.sh | sh`
+`sh <(curl -L https://raw.github.com/rumel/dotfiles/master/bootstrap.sh)`
