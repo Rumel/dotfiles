@@ -125,5 +125,16 @@ install_dotfiles () {
 
 install_dotfiles
 
+# Ruby up
+if [[ ! -d ~/.rbenv ]]; then
+  git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+fi
+
+if [[ ! -d ~/.rbenv/plugins/ruby-build ]]; then
+  git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+fi
+
+reload
+
 echo ''
 echo '  All installed!'
