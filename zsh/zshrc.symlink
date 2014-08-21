@@ -61,7 +61,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-if type rbenv; then
+if hash rbenv 2> /dev/null; then
   eval "$(rbenv init -)"
 fi
 
