@@ -2,6 +2,6 @@
 
 
 # Then load the local configuration
-if [[ -a local.zsh ]]; then
-  source local.zsh
+if [[ -a $DOTFILES/zsh/local.zsh ]]; then
+  source $DOTFILES/zsh/local.zsh
 fi
