@@ -16,7 +16,9 @@ fi
 # time that oh-my-zsh is loaded.
 ZSH_THEME="dalton-dick"
 
-source $DOTFILES/zsh/aliases.zsh
+source ~/.path
+source ~/.aliases
+source ~/.local-machine
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -58,9 +60,6 @@ source $DOTFILES/zsh/aliases.zsh
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-
-# Load PATH
-source $DOTFILES/zsh/path.zsh
 
 # User configuration
 

@@ -1,2 +1,2 @@
-# Copy to local.zsh
+# Copy to local.symlink
 # export PATH=/my/stuff:$PATH
