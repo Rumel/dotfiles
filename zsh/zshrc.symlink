@@ -18,6 +18,7 @@ ZSH_THEME="dalton-dick"
 
 source ~/.path
 source ~/.aliases
+source ~/.env
 source ~/.local-machine
 
 # Uncomment the following line to use case-sensitive completion.
