@@ -134,7 +134,7 @@ if [[ ! -d ~/.rbenv/plugins/ruby-build ]]; then
   git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 fi
 
-reload
+source ~/.zshrc
 
 echo ''
 echo '  All installed!'
