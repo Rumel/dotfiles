@@ -36,3 +36,6 @@
         #
         # Setting to git 2.0 default to surpress warning message
         default = simple
+
+[alias]
+	ten = "!git --no-pager log --oneline -n 10"
