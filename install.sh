@@ -123,18 +123,14 @@ install_dotfiles () {
   done
 }
 
+
 install_dotfiles
 
-# Ruby up
-if [[ ! -d ~/.rbenv ]]; then
-  git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
-fi
+# if [[ ! -h ~/.rbenv/plugins/ruby-build ]]; then
+#  ln  -s ~/.dotfiles/ruby/ruby-build ~/.rbenv/plugins/ruby-build
+# fi
 
-if [[ ! -d ~/.rbenv/plugins/ruby-build ]]; then
-  git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-fi
-
-git submodule update
+git submodule update --init --recursive
 
 echo ''
 echo '  All installed!'
