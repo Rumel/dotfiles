@@ -115,10 +115,39 @@ install_dotfiles () {
   done
 }
 
+clone_repo() {
+  local url=$1 directory=$2 create=$3 symbolic=$4
+  
+  info "Checking repo $directory\n"
+
+  if [ "$create" != "" ]; then
+    echo "$symbolic"
+    if [[ -h "$symbolic" ]]; then
+      info "Removing symbolic link for $symbolic\n"
+
+      rm "$symbolic"
+    fi
+
+    mkdir -p "$create"
+  fi
+
+  if [[ -h "$directory" ]]; then
+    info "Removing symbolic link for $directory\n"
+    rm "$directory"
+  fi
+
+  if [[ ! -d "$directory" ]]; then
+    git clone "$url" "$directory"
+    info "Cloned $url\n"
+  fi
+}
 
 install_dotfiles
 
-git submodule update --init --recursive
+clone_repo https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+clone_repo https://github.com/sstephenson/rbenv.git ~/.rbenv
+clone_repo https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+clone_repo https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim ~/.vim/bundle ~/.vim
 
 echo ''
 echo '  All installed!'
