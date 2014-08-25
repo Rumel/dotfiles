@@ -103,14 +103,6 @@ link_file () {
   fi
 }
 
-if [[ ! -d ~/.oh-my-zsh ]]
-then
-  info "Cloning oh-my-zsh"
-  git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-else
-  info "Oh My ZSH already exists"
-fi
-
 install_dotfiles () {
   info 'installing dotfiles'
 
@@ -125,10 +117,6 @@ install_dotfiles () {
 
 
 install_dotfiles
-
-# if [[ ! -h ~/.rbenv/plugins/ruby-build ]]; then
-#  ln  -s ~/.dotfiles/ruby/ruby-build ~/.rbenv/plugins/ruby-build
-# fi
 
 git submodule update --init --recursive
 
