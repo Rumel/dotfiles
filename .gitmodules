@@ -7,3 +7,6 @@
 [submodule "ruby-build"]
 	path = ruby/rbenv.symlink/plugins/ruby-build
 	url = https://github.com/sstephenson/ruby-build.git
+[submodule "zsh/oh-my-zsh.symlink"]
+	path = zsh/oh-my-zsh.symlink
+	url = https://www.github.com/robbyrussell/oh-my-zsh.git
