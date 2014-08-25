@@ -5,6 +5,9 @@ bind -n M-Left select-pane -L
 bind -n M-Right select-pane -R
 bind -n M-Up select-pane -U
 bind -n M-Down select-pane -D
-set-option -g mouse-select-pane on
 
-set-window-option -g window-status-current-bg yellow
+set-option -g mouse-select-pane on
+set-option -g mouse-select-window on
+setw -g mode-mouse on
+
+set-window-option -g window-status-current-bg magenta
