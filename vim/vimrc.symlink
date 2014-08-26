@@ -38,7 +38,7 @@ set laststatus=2
 " NERDTree
 "
 " Automaically open Nerdtree
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
