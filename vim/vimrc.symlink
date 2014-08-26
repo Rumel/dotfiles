@@ -23,6 +23,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-rails'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'danro/rename.vim'
 
 call vundle#end()
 filetype plugin indent on
