@@ -1,3 +1,4 @@
+alias claer="clear"
 alias dot="~/.dotfiles/install.sh"
 alias editconfig="vim ~/.zshrc"
 alias editvim="vim ~/.vimrc"
