@@ -66,6 +66,10 @@ if hash rbenv 2> /dev/null; then
   eval "$(rbenv init -)"
 fi
 
+[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && source ~/.autojump/etc/profile.d/autojump.sh
+
+autoload -U compinit && compinit -u
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
