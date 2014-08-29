@@ -1,4 +1,4 @@
-PROMPT='%{$fg_bold[red]%}┌── %{$fg_bold[black]%}(%?) [%h] %{$fg_bold[magenta]%}%W %{$fg_bold[green]%}%t %{$fg[cyan]%}%~ %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}%{$fg_bold[red]%}
+PROMPT='%{$fg_bold[red]%}┌── %{$fg_bold[black]%}(%?) [%h] %{$fg[yellow]%}$(battery_pct)%% %{$fg_bold[magenta]%}%W %{$fg_bold[green]%}%t %{$fg[cyan]%}%~ %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}%{$fg_bold[red]%}
 └── %{$reset_color%}'
  
 ZSH_THEME_GIT_PROMPT_PREFIX="git:(%{$fg[red]%}"
