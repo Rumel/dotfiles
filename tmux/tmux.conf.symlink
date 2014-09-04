@@ -11,7 +11,7 @@ bind l select-pane -R
 bind k select-pane -U
 bind j select-pane -D
 
-bind - split-window -v
+bind _ split-window -v
 bind | split-window -h
 
 set-option -g mouse-select-pane on
