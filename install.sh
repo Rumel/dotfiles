@@ -150,6 +150,7 @@ clone_repo https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-b
 clone_repo https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim ~/.vim/bundle ~/.vim
 
 if [[ ! -d "/usr/local/autojump" ]]; then
+  sudo chown `whoami` /usr/local
   git clone git://github.com/joelthelion/autojump.git /usr/local/autojump
   cd /usr/local/autojump
   ./install.py 
