@@ -1,6 +1,8 @@
 unbind C-b
 set -g prefix C-f
 
+setw -g mode-keys vi
+
 bind -n M-Left select-pane -L
 bind -n M-Right select-pane -R
 bind -n M-Up select-pane -U
@@ -14,8 +16,9 @@ bind j select-pane -D
 bind _ split-window -v
 bind | split-window -h
 
-set-option -g mouse-select-pane on
-set-option -g mouse-select-window on
 setw -g mode-mouse on
+set -g mouse-select-pane on
+set -g mouse-select-window on
+set -g mouse-resize-pane on
 
 set-window-option -g window-status-current-bg magenta
