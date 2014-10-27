@@ -40,6 +40,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'danro/rename.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'mustache/vim-mustache-handlebars'
 
 call vundle#end()
 filetype plugin indent on
