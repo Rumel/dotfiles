@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+# TODO rewrite as shell script
+
+require 'fileutils'
+
+files = Dir.entries "#{ENV['HOME']}/Desktop"
+downloads = files.entries.select { |e| e =~ /(.)+\.((nzb)|(torrent))$/ }
+
+count = 1
+downloads.each do |download|
+	FileUtils.mv("#{ENV['HOME']}/Desktop/#{download}",
+				"#{ENV['HOME']}/Dropbox/Usenet/#{download}")
+	puts "#{count} Moved #{download}"
+end
+
+puts "Finished moving nzbs"
