@@ -42,6 +42,7 @@ call vundle#begin()
   Plugin 'scrooloose/syntastic'
   Plugin 'airblade/vim-gitgutter'
   Plugin 'tpope/vim-surround'
+  Plugin 'tpope/vim-fugitive'
 
 " Ruby & Rails
   Plugin 'tpope/vim-rails'
