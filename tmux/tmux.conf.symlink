@@ -1,5 +1,5 @@
 unbind C-b
-set -g prefix C-f
+set -g prefix M-C-b
 
 setw -g mode-keys vi
 
