@@ -27,20 +27,29 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim'
-Plugin 'kien/ctrlp.vim'
-Plugin 'bling/vim-airline'
-Plugin 'scrooloose/syntastic'
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-rails'
-Plugin 'flazz/vim-colorschemes'
-Plugin 'danro/rename.vim'
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'mustache/vim-mustache-handlebars'
+" General
+  Plugin 'gmarik/Vundle.vim'
+  Plugin 'kien/ctrlp.vim'
+  Plugin 'bling/vim-airline'
+  Plugin 'scrooloose/nerdtree'
+  Plugin 'jistr/vim-nerdtree-tabs'
+  Plugin 'flazz/vim-colorschemes'
+  Plugin 'danro/rename.vim'
+    
+" General Programming
+  Plugin 'scrooloose/syntastic'
+  Plugin 'airblade/vim-gitgutter'
+  Plugin 'tpope/vim-surround'
+
+" Ruby & Rails
+  Plugin 'tpope/vim-rails'
+
+" Javascript
+  Plugin 'mustache/vim-mustache-handlebars'
+
+" Markdown
+  Plugin 'godlygeek/tabular'
+  Plugin 'plasticboy/vim-markdown'
 
 call vundle#end()
 filetype plugin indent on
