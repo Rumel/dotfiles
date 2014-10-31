@@ -45,8 +45,10 @@ call vundle#begin()
   Plugin 'tpope/vim-surround'
   Plugin 'tpope/vim-fugitive'
 
-" Ruby & Rails
-  Plugin 'tpope/vim-rails'
+" Clojure
+  Plugin 'guns/vim-clojure-static'
+  Plugin 'tpope/vim-leiningen'
+  Plugin 'tpope/vim-fireplace'
 
 " Javascript
   Plugin 'mustache/vim-mustache-handlebars'
@@ -54,6 +56,9 @@ call vundle#begin()
 " Markdown
   Plugin 'godlygeek/tabular'
   Plugin 'plasticboy/vim-markdown'
+
+" Ruby & Rails
+  Plugin 'tpope/vim-rails'
 
 call vundle#end()
 filetype plugin indent on
