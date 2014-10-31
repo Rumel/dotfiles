@@ -64,6 +64,7 @@ let g:ctrlp_working_path_mode = 'ra'
 
 " vim-airline
 set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
 
 " NERDTree
 "
@@ -71,5 +72,8 @@ set laststatus=2
 " autocmd vimenter * NERDTree
 map <C-n> :NERDTreeTabsToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+" GitGutter
+let g:gitgutter_sign_column_always = 1 " Always show sign column
 
 colorscheme thor
