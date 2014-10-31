@@ -109,4 +109,7 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
+" Set ack as the grep
+set grepprg=ack
+
 colorscheme thor
