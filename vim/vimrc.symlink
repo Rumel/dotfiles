@@ -37,7 +37,8 @@ call vundle#begin()
   Plugin 'jistr/vim-nerdtree-tabs'
   Plugin 'flazz/vim-colorschemes'
   Plugin 'danro/rename.vim'
-    
+  Plugin 'Lokaltog/vim-easymotion'
+
 " General Programming
   Plugin 'scrooloose/syntastic'
   Plugin 'airblade/vim-gitgutter'
