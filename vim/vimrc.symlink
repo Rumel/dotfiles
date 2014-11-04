@@ -24,6 +24,9 @@ set incsearch
 
 inoremap jj <ESC>
 
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start " http://stackoverflow.com/questions/3534028/mac-terminal-vim-will-only-use-backspace-when-at-the-end-of-a-line 
+
 filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -49,6 +52,7 @@ call vundle#begin()
   Plugin 'tomtom/tlib_vim'
   Plugin 'garbas/vim-snipmate'
   Plugin 'honza/vim-snippets'
+  Plugin 'scrooloose/nerdcommenter'
 
 " Clojure
   Plugin 'guns/vim-clojure-static'
