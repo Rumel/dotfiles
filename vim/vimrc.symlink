@@ -23,6 +23,8 @@ set splitright
 
 set incsearch
 
+set noswapfile
+
 inoremap jj <ESC>
 
 " allow backspacing over everything in insert mode
@@ -49,6 +51,10 @@ call vundle#begin()
   Plugin 'kien/rainbow_parentheses.vim'
   Plugin 'tpope/vim-surround'
   Plugin 'tpope/vim-fugitive'
+  Plugin 'MarcWeber/vim-addon-mw-utils'
+  Plugin 'tomtom/tlib_vim'
+  Plugin 'garbas/vim-snipmate'
+  Plugin 'honza/vim-snippets'
   Plugin 'scrooloose/nerdcommenter'
   Plugin 'majutsushi/tagbar'
 
