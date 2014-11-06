@@ -9,6 +9,7 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" Turn on mouse compatibility
 set mouse=a
 
 " Remap moving around splits
@@ -49,6 +50,7 @@ call vundle#begin()
   Plugin 'tpope/vim-surround'
   Plugin 'tpope/vim-fugitive'
   Plugin 'scrooloose/nerdcommenter'
+  Plugin 'majutsushi/tagbar'
 
 " Clojure
   Plugin 'guns/vim-clojure-static'
@@ -65,7 +67,7 @@ call vundle#begin()
 " Ruby & Rails
   Plugin 'vim-ruby/vim-ruby'
   Plugin 'tpope/vim-rails'
-
+  
 call vundle#end()
 filetype plugin indent on
 
@@ -116,5 +118,8 @@ au Syntax * RainbowParenthesesLoadBraces
 
 " Set ack as the grep
 set grepprg=ack
+
+" Tagbar
+nmap tt :TagbarToggle<CR>
 
 colorscheme thor
