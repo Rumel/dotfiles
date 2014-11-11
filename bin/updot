@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+color_echo () {
+  printf "\033[00;32m$1\033[0m\n"
+}
+
+color_echo "Running install script"
+cd ~/.dotfiles && ./install.sh
+color_echo "Updating rbenv"
+cd ~/.rbenv && git pull
+color_echo "Updating ruby-build"
+cd ~/.rbenv/plugins/ruby-build && git pull
+color_echo "Updating autojump"
+cd /usr/local/autojump && git pull
+
+color_echo "Updated!"
