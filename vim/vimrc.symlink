@@ -25,6 +25,8 @@ set incsearch
 
 set noswapfile
 
+set autoread
+
 " Exit insert mode with jj
 inoremap jj <ESC>
 " Space in normal to insert a space and start typing
