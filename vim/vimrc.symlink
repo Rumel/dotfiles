@@ -134,4 +134,10 @@ set grepprg=ack
 " Tagbar
 nmap tt :TagbarToggle<CR>
 
-colorscheme thor
+map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
+      \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
+      \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
+
+set t_Co=256
+
+colorscheme twilight256
