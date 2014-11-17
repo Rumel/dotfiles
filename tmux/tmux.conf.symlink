@@ -21,4 +21,8 @@ set -g mouse-select-pane on
 set -g mouse-select-window on
 set -g mouse-resize-pane on
 
+bind -r C-h resize-pane -L 5
+bind -r C-j resize-pane -D 5
+bind -r C-k resize-pane -U 5
+bind -r C-l resize-pane -R 5
 set-window-option -g window-status-current-bg magenta
