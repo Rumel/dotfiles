@@ -44,6 +44,8 @@ call vundle#begin()
   Plugin 'gmarik/Vundle.vim'
   Plugin 'kien/ctrlp.vim'
   Plugin 'bling/vim-airline'
+  Plugin 'scrooloose/nerdtree'
+  Plugin 'jistr/vim-nerdtree-tabs'
   Plugin 'flazz/vim-colorschemes'
   Plugin 'danro/rename.vim'
   Plugin 'Lokaltog/vim-easymotion'
@@ -88,6 +90,13 @@ let g:ctrlp_working_path_mode = 'ra'
 
 " vim-airline
 set laststatus=2
+
+" NERDTree
+"
+" Automaically open Nerdtree
+" autocmd vimenter * NERDTree
+map <C-n> :NERDTreeTabsToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " GitGutter
 let g:gitgutter_sign_column_always = 1 " Always show sign column
