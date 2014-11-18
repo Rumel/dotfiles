@@ -3,6 +3,8 @@ set nocompatible              " be iMproved, required
 set nu
 syntax enable
 
+let mapleader = ","
+
 " Tabs
 set smartindent
 set tabstop=2
