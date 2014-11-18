@@ -13,10 +13,16 @@ set expandtab
 set mouse=a
 
 " Remap moving around splits
+nnoremap <C-H> <C-W><C-H>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
+
+" Allow Ctrl-hjkl to move around while in insert mode
+inoremap <C-H> <C-o>h
+inoremap <C-J> <C-o>j
+inoremap <C-K> <C-o>k
+inoremap <C-L> <C-o>l
 
 set splitbelow
 set splitright
@@ -50,6 +56,7 @@ call vundle#begin()
   Plugin 'danro/rename.vim'
   Plugin 'Lokaltog/vim-easymotion'
   Plugin 'chrisbra/csv.vim'
+  Plugin 'koron/nyancat-vim'
 
 " General Programming
   Plugin 'scrooloose/syntastic'
