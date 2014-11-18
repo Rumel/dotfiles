@@ -28,6 +28,10 @@ inoremap <C-J> <Down>
 inoremap <C-K> <Up>
 inoremap <C-L> <Right>
 
+" Move through line wraps propperly
+map k gk
+map j gj
+
 set splitbelow
 set splitright
 
