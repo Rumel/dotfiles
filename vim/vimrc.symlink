@@ -67,6 +67,7 @@ call vundle#begin()
   Plugin 'Lokaltog/vim-easymotion'
   Plugin 'chrisbra/csv.vim'
   Plugin 'koron/nyancat-vim'
+  Plugin 'severin-lemaignan/vim-minimap'
 
 " General Programming
   Plugin 'scrooloose/syntastic'
