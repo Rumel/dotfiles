@@ -21,8 +21,6 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 
 " Allow Ctrl-HJKL to move around while in insert mode
-"inoremap <C-H> <C-o>h
-"inoremap <C-J> <C-o>j
 inoremap <C-H> <Left>
 inoremap <C-J> <Down>
 inoremap <C-K> <Up>
@@ -65,9 +63,6 @@ call vundle#begin()
   Plugin 'flazz/vim-colorschemes'
   Plugin 'danro/rename.vim'
   Plugin 'Lokaltog/vim-easymotion'
-  Plugin 'chrisbra/csv.vim'
-  Plugin 'koron/nyancat-vim'
-  Plugin 'severin-lemaignan/vim-minimap'
 
 " General Programming
   Plugin 'scrooloose/syntastic'
@@ -80,7 +75,6 @@ call vundle#begin()
   Plugin 'garbas/vim-snipmate'
   Plugin 'honza/vim-snippets'
   Plugin 'scrooloose/nerdcommenter'
-  Plugin 'majutsushi/tagbar'
 
 " Clojure
   Plugin 'guns/vim-clojure-static'
@@ -145,12 +139,6 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-
-" Set ack as the grep
-set grepprg=ack
-
-" Tagbar
-nmap tt :TagbarToggle<CR>
 
 map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
       \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
