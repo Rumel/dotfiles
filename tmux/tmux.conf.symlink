@@ -1,6 +1,8 @@
 unbind C-b
 set -g prefix C-f
 
+bind -r C-f send-prefix 
+
 setw -g mode-keys vi
 
 bind -r h select-pane -L
