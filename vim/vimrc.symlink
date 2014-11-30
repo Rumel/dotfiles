@@ -26,6 +26,7 @@ call vundle#begin()
   Plugin 'garbas/vim-snipmate'
   Plugin 'honza/vim-snippets'
   Plugin 'scrooloose/nerdcommenter'
+  Plugin 'tpope/vim-endwise'
 
 " Clojure
   Plugin 'guns/vim-clojure-static'
