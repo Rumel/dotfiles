@@ -16,8 +16,8 @@
 
 [core]
         excludesfile = ~/.gitignore
-        editor = vim
-	autocrlf = false
+        editor = vim 
+	      autocrlf = false
 
 [apply]
         whitespace = nowarn
