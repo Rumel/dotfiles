@@ -1,5 +1,51 @@
 set nocompatible              " be iMproved, required
 
+filetype off                  " required
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" General
+  Plugin 'gmarik/Vundle.vim'
+  Plugin 'kien/ctrlp.vim'
+  Plugin 'bling/vim-airline'
+  Plugin 'scrooloose/nerdtree'
+  Plugin 'jistr/vim-nerdtree-tabs'
+  Plugin 'flazz/vim-colorschemes'
+  Plugin 'danro/rename.vim'
+  Plugin 'Lokaltog/vim-easymotion'
+
+" General Programming
+  Plugin 'scrooloose/syntastic'
+  Plugin 'airblade/vim-gitgutter'
+  Plugin 'kien/rainbow_parentheses.vim'
+  Plugin 'tpope/vim-surround'
+  Plugin 'tpope/vim-fugitive'
+  Plugin 'MarcWeber/vim-addon-mw-utils'
+  Plugin 'tomtom/tlib_vim'
+  Plugin 'garbas/vim-snipmate'
+  Plugin 'honza/vim-snippets'
+  Plugin 'scrooloose/nerdcommenter'
+
+" Clojure
+  Plugin 'guns/vim-clojure-static'
+  Plugin 'tpope/vim-leiningen'
+  Plugin 'tpope/vim-fireplace'
+
+" Javascript
+  Plugin 'mustache/vim-mustache-handlebars'
+
+" Markdown
+  Plugin 'godlygeek/tabular'
+  Plugin 'plasticboy/vim-markdown'
+
+" Ruby & Rails
+  Plugin 'vim-ruby/vim-ruby'
+  Plugin 'tpope/vim-rails'
+  
+call vundle#end()
+filetype plugin indent on
+
 set nu
 syntax enable
 
@@ -48,52 +94,6 @@ nnoremap <Space> a
 set backspace=indent,eol,start " http://stackoverflow.com/questions/3534028/mac-terminal-vim-will-only-use-backspace-when-at-the-end-of-a-line 
 
 runtime macros/matchit.vim
-
-filetype off                  " required
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" General
-  Plugin 'gmarik/Vundle.vim'
-  Plugin 'kien/ctrlp.vim'
-  Plugin 'bling/vim-airline'
-  Plugin 'scrooloose/nerdtree'
-  Plugin 'jistr/vim-nerdtree-tabs'
-  Plugin 'flazz/vim-colorschemes'
-  Plugin 'danro/rename.vim'
-  Plugin 'Lokaltog/vim-easymotion'
-
-" General Programming
-  Plugin 'scrooloose/syntastic'
-  Plugin 'airblade/vim-gitgutter'
-  Plugin 'kien/rainbow_parentheses.vim'
-  Plugin 'tpope/vim-surround'
-  Plugin 'tpope/vim-fugitive'
-  Plugin 'MarcWeber/vim-addon-mw-utils'
-  Plugin 'tomtom/tlib_vim'
-  Plugin 'garbas/vim-snipmate'
-  Plugin 'honza/vim-snippets'
-  Plugin 'scrooloose/nerdcommenter'
-
-" Clojure
-  Plugin 'guns/vim-clojure-static'
-  Plugin 'tpope/vim-leiningen'
-  Plugin 'tpope/vim-fireplace'
-
-" Javascript
-  Plugin 'mustache/vim-mustache-handlebars'
-
-" Markdown
-  Plugin 'godlygeek/tabular'
-  Plugin 'plasticboy/vim-markdown'
-
-" Ruby & Rails
-  Plugin 'vim-ruby/vim-ruby'
-  Plugin 'tpope/vim-rails'
-  
-call vundle#end()
-filetype plugin indent on
 
 " Ctrl-P
 let g:ctrlp_map = '<c-p>'
