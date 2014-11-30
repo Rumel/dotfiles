@@ -29,8 +29,9 @@ call vundle#begin()
 
 " Clojure
   Plugin 'guns/vim-clojure-static'
-  Plugin 'tpope/vim-leiningen'
+  Plugin 'tpope/vim-classpath'
   Plugin 'tpope/vim-fireplace'
+  Plugin 'tpope/vim-leiningen'
 
 " Javascript
   Plugin 'mustache/vim-mustache-handlebars'
