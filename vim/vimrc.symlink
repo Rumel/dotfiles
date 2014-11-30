@@ -75,6 +75,12 @@ inoremap <C-J> <Down>
 inoremap <C-K> <Up>
 inoremap <C-L> <Right>
 
+" Better split resizing
+nnoremap = <C-w>+
+nnoremap - <C-w>-
+nnoremap + <C-w>>
+nnoremap _ <C-w><
+
 " Move through line wraps propperly
 map k gk
 map j gj
