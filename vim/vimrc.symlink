@@ -87,12 +87,11 @@ map j gj
 
 set splitbelow
 set splitright
-
 set incsearch
-
 set noswapfile
-
 set autoread
+set scrolloff=5
+set shiftround
 
 " Exit insert mode with jj
 inoremap jj <ESC>
