@@ -5,10 +5,10 @@ bind -r C-f send-prefix
 
 setw -g mode-keys vi
 
-bind -r h select-pane -L
-bind -r l select-pane -R
-bind -r k select-pane -U
-bind -r j select-pane -D
+bind h select-pane -L
+bind l select-pane -R
+bind k select-pane -U
+bind j select-pane -D
 
 bind _ split-window -v
 bind | split-window -h
