@@ -4,6 +4,8 @@ color_echo () {
   printf "\033[00;32m$1\033[0m\n"
 }
 
+color_echo "Updating dotfiles"
+cd ~/.dotfiles && git pull
 color_echo "Running install script"
 cd ~/.dotfiles && ./install.sh
 color_echo "Updating rbenv"
