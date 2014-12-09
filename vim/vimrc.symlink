@@ -26,7 +26,6 @@ call vundle#begin()
   Plugin 'garbas/vim-snipmate'
   Plugin 'honza/vim-snippets'
   Plugin 'scrooloose/nerdcommenter'
-  Plugin 'tpope/vim-endwise'
   Plugin 'Valloric/YouCompleteMe' " Requires cmake
 
 " Clojure
