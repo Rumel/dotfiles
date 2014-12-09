@@ -103,6 +103,10 @@ nnoremap _ <C-w><
 map k gk
 map j gj
 
+" Save normally
+map <C-s> <esc>:w<CR>:echo "Saved!"<CR>
+imap <C-s> <esc>:w<CR>:echo "Saved!"<CR>a
+
 set splitbelow
 set splitright
 set incsearch
