@@ -116,8 +116,6 @@ set shiftround
 
 " Exit insert mode with jj
 inoremap jj <ESC>
-" Space in normal to insert a space and start typing
-nnoremap <Space> a 
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start " http://stackoverflow.com/questions/3534028/mac-terminal-vim-will-only-use-backspace-when-at-the-end-of-a-line 
