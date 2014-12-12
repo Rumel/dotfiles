@@ -17,5 +17,6 @@ if [[ $LINUX = true ]]; then
   alias upbuntu="sudo apt-get update && sudo apt-get -y install && sudo apt-get autoremove"
 else
   # OS X
+  alias brewup="brew update && brew upgrade"
   alias i="brew install"
 fi
