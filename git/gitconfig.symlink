@@ -41,3 +41,5 @@
 [alias]
   pretty = "log --pretty=format:'%Cred%h%Creset %Cblue%an:%Creset %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 	ten = "!git --no-pager pretty -n 10"
+	untemp = reset HEAD~1
+	temp = commit -am 'TEMP'
