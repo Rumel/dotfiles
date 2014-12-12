@@ -19,4 +19,5 @@ else
   # OS X
   alias brewup="brew update && brew upgrade"
   alias i="brew install"
+  alias spotify="osascript $DOTFILES/scripts/SpotifyControl.scpt"
 fi
