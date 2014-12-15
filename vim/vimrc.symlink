@@ -118,8 +118,6 @@ set shiftround
 
 " Exit insert mode with jj
 inoremap jj <ESC>
-" Space in normal to insert a space and start typing
-nnoremap <Space> a 
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start " http://stackoverflow.com/questions/3534028/mac-terminal-vim-will-only-use-backspace-when-at-the-end-of-a-line 
@@ -176,6 +174,18 @@ au Syntax * RainbowParenthesesLoadBraces
 map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
       \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
       \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
+
+" The Silver Searcher
+if executable('ag')
+    " Use ag over grep
+    set grepprg=ag\ --nogroup\ --nocolor
+    
+    " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+    " ag is fast enough that CtrlP doesn't need to cache
+    let g:ctrlp_use_caching = 0
+endif
 
 set t_Co=256
 
