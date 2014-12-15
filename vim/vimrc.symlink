@@ -106,6 +106,8 @@ map j gj
 map <C-s> <esc>:w<CR>:echo "Saved!"<CR>
 imap <C-s> <esc>:w<CR>:echo "Saved!"<CR>a
 
+vnoremap <Enter> <Esc>
+
 set splitbelow
 set splitright
 set incsearch
