@@ -47,6 +47,9 @@ call vundle#begin()
 " Ruby & Rails
   Plugin 'vim-ruby/vim-ruby'
   Plugin 'tpope/vim-rails'
+
+" Python
+  Plugin 'klen/python-mode'
   
 call vundle#end()
 filetype plugin indent on
