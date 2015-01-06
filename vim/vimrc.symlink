@@ -147,6 +147,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " GitGutter
 let g:gitgutter_sign_column_always = 1 " Always show sign column
 
+" vim-markdown
+let g:vim_markdown_folding_disabled=1
+
 " Rainbow Parentheses
 let g:rbpt_colorpairs = [
     \ ['brown',       'RoyalBlue3'],
