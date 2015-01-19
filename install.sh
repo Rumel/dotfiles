@@ -142,6 +142,8 @@ clone_repo() {
   fi
 }
 
+[ ! -e "$DOTFILES_ROOT/zsh/local-machine.symlink" ] && cp "$DOTFILES_ROOT/zsh/local-machine.symlink.example" "$DOTFILES_ROOT/zsh/local-machine.symlink"
+
 install_dotfiles
 
 clone_repo https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
