@@ -101,6 +101,9 @@ nnoremap - <C-w>-
 nnoremap + <C-w>>
 nnoremap _ <C-w><
 
+nnoremap <leader>n :bn<CR>
+nnoremap <leader>p :bp<CR>
+
 " Move through line wraps propperly
 map k gk
 map j gj
