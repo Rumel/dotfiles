@@ -14,6 +14,7 @@ call vundle#begin()
   Plugin 'flazz/vim-colorschemes'
   Plugin 'danro/rename.vim'
   Plugin 'Lokaltog/vim-easymotion'
+  Plugin 'ryanss/vim-hackernews'
 
 " General Programming
   Plugin 'scrooloose/syntastic'
