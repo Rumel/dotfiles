@@ -11,7 +11,6 @@ alias gcb="git checkout -b"
 alias gco="git commit"
 alias gitcleanup="git branch --merged master | grep -v \"* master\" | xargs git branch -D"
 alias gst="git status"
-alias pcat="pygmentize -f terminal256 -O style=native -g"
 alias reload="source ~/.zshrc"
 alias vag="vagrant"
 
