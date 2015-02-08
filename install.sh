@@ -160,5 +160,8 @@ if [[ ! -d "/usr/local/autojump" ]]; then
   ./install.py 
 fi
 
+info "Updating Vim plugins"
+vim +PluginInstall +qall
+
 echo ''
 echo '  All installed!'
