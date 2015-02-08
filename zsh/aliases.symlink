@@ -2,6 +2,7 @@
 
 alias brewup="brew update && brew upgrade"
 alias claer="clear"
+alias dir="ls"
 alias dot="~/.dotfiles/install.sh"
 alias editconfig="vim ~/.zshrc"
 alias editvim="vim ~/.vimrc"
