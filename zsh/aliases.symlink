@@ -15,9 +15,12 @@ alias reload="source ~/.zshrc"
 alias vag="vagrant"
 
 if [[ $LINUX = true ]]; then
+  function search() {
+    sudo apt-cache search $1 | grep -i $1
+  }
+
   # Linux
   alias i="sudo apt-get install"
-  alias search="sudo apt-cache search"
   alias upbuntu="sudo apt-get update && sudo apt-get -y install && sudo apt-get autoremove"
 else
   # OS X
