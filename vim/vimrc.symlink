@@ -52,7 +52,11 @@ call vundle#begin()
 
 " Python
   Plugin 'klen/python-mode'
-  
+
+" HTML
+  Plugin 'mattn/emmet-vim'
+  Plugin 'othree/xml.vim'  
+
 call vundle#end()
 filetype plugin indent on
 
