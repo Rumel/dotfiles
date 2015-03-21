@@ -37,6 +37,7 @@ call vundle#begin()
 
 " Go
   Plugin 'fatih/vim-go'
+  Plugin 'nsf/gocode', {'rtp': 'vim/'}
 
 " Javascript
   Plugin 'mustache/vim-mustache-handlebars'
