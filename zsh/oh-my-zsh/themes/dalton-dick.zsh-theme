@@ -9,9 +9,13 @@ HISTORY_COUNT="[%h]"
 BATTERY_PCT="%{$fg[yellow]%}$(battery_pct)%%"
 DATE="%{$fg_bold[magenta]%}%W"
 TIME="%{$fg_bold[green]%}%t"
+LINE="%{$fg_bold[red]%}|"
+LOCATION="%{$fg[cyan]%}%n@%m:"
 DIRECTORY="%{$fg[cyan]%}%~"
 GIT="%{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}"
-ENDING="%{$fg_bold[red]%}
-└── %{$reset_color%}"
-PROMPT="$BEGINNING $ERROR_CODE $HISTORY_COUNT $BATTERY_PCT $DATE $TIME $DIRECTORY $GIT $ENDING"
+ENDING="%{$fg_bold[red]%}└── %{$reset_color%}"
+PROMPT="
+$BEGINNING $ERROR_CODE $HISTORY_COUNT $BATTERY_PCT $DATE $TIME 
+$LINE $LOCATION$DIRECTORY $GIT
+$ENDING"
  
