@@ -13,7 +13,7 @@ LINE="%{$fg_bold[red]%}|"
 LOCATION="%{$fg[cyan]%}%n@%m:"
 DIRECTORY="%{$fg[cyan]%}%~"
 GIT="%{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}"
-ENDING="%{$fg_bold[red]%}└── %{$reset_color%}"
+ENDING="%{$fg_bold[red]%}└──> %{$reset_color%}"
 PROMPT="
 $BEGINNING $ERROR_CODE $HISTORY_COUNT $BATTERY_PCT $DATE $TIME 
 $LINE $LOCATION$DIRECTORY $GIT
