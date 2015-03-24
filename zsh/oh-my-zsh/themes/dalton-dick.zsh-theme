@@ -1,7 +1,17 @@
-PROMPT='%{$fg_bold[red]%}┌── %{$fg_bold[black]%}(%?) [%h] %{$fg[yellow]%}$(battery_pct)%% %{$fg_bold[magenta]%}%W %{$fg_bold[green]%}%t %{$fg[cyan]%}%~ %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}%{$fg_bold[red]%}
-└── %{$reset_color%}'
- 
 ZSH_THEME_GIT_PROMPT_PREFIX="git:(%{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX=" %{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}✗%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
+
+BEGINNING="%{$fg_bold[red]%}┌──"
+ERROR_CODE="%{$fg_bold[black]%}(%?)"
+HISTORY_COUNT="[%h]"
+BATTERY_PCT="%{$fg[yellow]%}$(battery_pct)%%"
+DATE="%{$fg_bold[magenta]%}%W"
+TIME="%{$fg_bold[green]%}%t"
+DIRECTORY="%{$fg[cyan]%}%~"
+GIT="%{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}"
+ENDING="%{$fg_bold[red]%}
+└── %{$reset_color%}"
+PROMPT="$BEGINNING $ERROR_CODE $HISTORY_COUNT $BATTERY_PCT $DATE $TIME $DIRECTORY $GIT $ENDING"
+ 
