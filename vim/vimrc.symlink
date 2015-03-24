@@ -73,6 +73,8 @@ augroup myfiletypes
   " Make ?s part of words
   autocmd FileType ruby,eruby,yaml setlocal iskeyword+=? 
 
+  au BufRead,BufNewFile *.zsh-theme set filetype=zsh
+
 augroup END
 
 set nu
