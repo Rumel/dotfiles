@@ -3,19 +3,27 @@ ZSH_THEME_GIT_PROMPT_SUFFIX=" %{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}✗%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
 
-BEGINNING="%{$fg_bold[red]%}┌──"
-ERROR_CODE="%{$fg_bold[black]%}(%?)"
-HISTORY_COUNT="[%h]"
-BATTERY_PCT="%{$fg[yellow]%}$(battery_pct)%%"
-DATE="%{$fg_bold[magenta]%}%W"
-TIME="%{$fg_bold[green]%}%t"
-LINE="%{$fg_bold[red]%}|"
-LOCATION="%{$fg[cyan]%}%n@%m:"
-DIRECTORY="%{$fg[cyan]%}%~"
-GIT="%{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}"
-ENDING="%{$fg_bold[red]%}└──> %{$reset_color%}"
-PROMPT="
-$BEGINNING $ERROR_CODE $HISTORY_COUNT $BATTERY_PCT $DATE $TIME 
-$LINE $LOCATION$DIRECTORY $GIT
-$ENDING"
- 
+p_beginning="%{$fg_bold[red]%}┌──"
+p_error_code="%{$fg_bold[black]%}(%?)"
+p_history_count="[%h]"
+
+p_battery_pct () {
+  echo "%{$fg[yellow]%}$(battery_pct)%%"
+}
+
+p_date="%{$fg_bold[magenta]%}%W"
+p_time="%{$fg_bold[green]%}%t"
+p_line="%{$fg_bold[red]%}|"
+p_location="%{$fg[cyan]%}%n@%m:"
+p_directory="%{$fg[cyan]%}%~"
+
+p_git () {
+  echo "%{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}"
+}
+
+p_ending="%{$fg_bold[red]%}└──> %{$reset_color%}"
+
+PROMPT='
+$p_beginning $p_error_code $p_history_count $(p_battery_pct) $p_date $p_time 
+$p_line $p_location$p_directory $(p_git)
+$p_ending'
