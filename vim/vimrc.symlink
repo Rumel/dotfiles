@@ -53,6 +53,9 @@ call vundle#begin()
 " Python
   Plugin 'klen/python-mode'
 
+" Elixir
+  Plugin 'elixir-lang/vim-elixir'
+
 " HTML
   Plugin 'mattn/emmet-vim'
   Plugin 'othree/xml.vim'  
