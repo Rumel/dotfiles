@@ -21,10 +21,6 @@ call vundle#begin()
   Plugin 'kien/rainbow_parentheses.vim'
   Plugin 'tpope/vim-surround'
   Plugin 'tpope/vim-fugitive'
-  Plugin 'MarcWeber/vim-addon-mw-utils'
-  Plugin 'tomtom/tlib_vim'
-  Plugin 'garbas/vim-snipmate'
-  Plugin 'honza/vim-snippets'
   Plugin 'scrooloose/nerdcommenter'
   Plugin 'Valloric/YouCompleteMe' " Requires cmake
   Plugin 'tpope/vim-repeat'
