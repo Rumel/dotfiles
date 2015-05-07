@@ -28,12 +28,15 @@ call vundle#begin()
   Plugin 'honza/vim-snippets'
   Plugin 'scrooloose/nerdcommenter'
   Plugin 'Valloric/YouCompleteMe' " Requires cmake
+  Plugin 'tpope/vim-repeat'
 
 " Clojure
   Plugin 'guns/vim-clojure-static'
   Plugin 'tpope/vim-classpath'
   Plugin 'tpope/vim-fireplace'
   Plugin 'tpope/vim-leiningen'
+  Plugin 'tpope/vim-sexp-mappings-for-regular-people'
+  Plugin 'guns/vim-sexp'
 
 " Go
   Plugin 'fatih/vim-go'
