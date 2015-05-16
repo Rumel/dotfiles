@@ -30,8 +30,6 @@ call vundle#begin()
   Plugin 'tpope/vim-classpath'
   Plugin 'tpope/vim-fireplace'
   Plugin 'tpope/vim-leiningen'
-  Plugin 'tpope/vim-sexp-mappings-for-regular-people'
-  Plugin 'guns/vim-sexp'
 
 " Go
   Plugin 'fatih/vim-go'
