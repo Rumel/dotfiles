@@ -57,6 +57,9 @@ call vundle#begin()
   Plugin 'mattn/emmet-vim'
   Plugin 'othree/xml.vim'  
 
+" Wakatime
+  Plugin 'wakatime/vim-wakatime'
+
 call vundle#end()
 filetype plugin indent on
 
