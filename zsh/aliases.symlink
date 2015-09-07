@@ -12,6 +12,7 @@ alias gco="git commit"
 alias gitcleanup="git branch --merged master | grep -v \"* master\" | xargs git branch -D"
 alias gst="git status"
 alias reload="source ~/.zshrc"
+alias server="python -m SimpleHTTPServer"
 alias vag="vagrant"
 
 if [[ $LINUX = true ]]; then
