@@ -56,11 +56,7 @@ call vundle#begin()
 " HTML
   Plugin 'mattn/emmet-vim'
     let g:user_emmet_mode='i'
-    let g:user_emmet_leader_key='<TAB>'
   Plugin 'othree/xml.vim'  
-
-" Wakatime
-  Plugin 'wakatime/vim-wakatime'
 
 call vundle#end()
 filetype plugin indent on
