@@ -22,7 +22,6 @@ call vundle#begin()
   Plugin 'tpope/vim-surround'
   Plugin 'tpope/vim-fugitive'
   Plugin 'scrooloose/nerdcommenter'
-  Plugin 'Valloric/YouCompleteMe' " Requires cmake
   Plugin 'tpope/vim-repeat'
 
 " Clojure
