@@ -37,6 +37,9 @@ call vundle#begin()
 " Javascript
   Plugin 'mustache/vim-mustache-handlebars'
 
+" Coffeescript
+  Plugin 'kchmck/vim-coffee-script'
+
 " Markdown
   Plugin 'godlygeek/tabular'
   Plugin 'plasticboy/vim-markdown'
