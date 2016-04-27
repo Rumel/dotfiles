@@ -1,6 +1,6 @@
 # vim: filetype=sh
 
-alias brewup="brew update && brew upgrade"
+alias brewup="brew update && brew upgrade && brew cleanup"
 alias claer="clear"
 alias dir="ls"
 alias dot="~/.dotfiles/install.sh"
