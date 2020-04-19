@@ -8,57 +8,13 @@ call vundle#begin()
 " General
   Plugin 'gmarik/Vundle.vim'
   Plugin 'kien/ctrlp.vim'
-  Plugin 'bling/vim-airline'
-  Plugin 'scrooloose/nerdtree'
-  Plugin 'jistr/vim-nerdtree-tabs'
   Plugin 'flazz/vim-colorschemes'
-  Plugin 'danro/rename.vim'
   Plugin 'Lokaltog/vim-easymotion'
 
 " General Programming
   Plugin 'scrooloose/syntastic'
   Plugin 'airblade/vim-gitgutter'
   Plugin 'kien/rainbow_parentheses.vim'
-  Plugin 'tpope/vim-surround'
-  Plugin 'tpope/vim-fugitive'
-  Plugin 'scrooloose/nerdcommenter'
-  Plugin 'tpope/vim-repeat'
-
-" Clojure
-  Plugin 'guns/vim-clojure-static'
-  Plugin 'tpope/vim-classpath'
-  Plugin 'tpope/vim-fireplace'
-  Plugin 'tpope/vim-leiningen'
-
-" Go
-  Plugin 'fatih/vim-go'
-  Plugin 'nsf/gocode', {'rtp': 'vim/'}
-
-" Javascript
-  Plugin 'mustache/vim-mustache-handlebars'
-
-" Coffeescript
-  Plugin 'kchmck/vim-coffee-script'
-
-" Markdown
-  Plugin 'godlygeek/tabular'
-  Plugin 'plasticboy/vim-markdown'
-
-" Ruby & Rails
-  Plugin 'vim-ruby/vim-ruby'
-  Plugin 'tpope/vim-rails'
-
-" Python
-  Plugin 'klen/python-mode'
-
-" Elixir
-  Plugin 'elixir-lang/vim-elixir'
-  Plugin 'mattreduce/vim-mix'
-
-" HTML
-  Plugin 'mattn/emmet-vim'
-    let g:user_emmet_mode='i'
-  Plugin 'othree/xml.vim'  
 
 call vundle#end()
 filetype plugin indent on
@@ -145,24 +101,6 @@ runtime macros/matchit.vim
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
-
-" vim-airline
-set laststatus=2
-" Enable a buffer tabline
-let g:airline#extensions#tabline#enabled = 1
-
-" NERDTree
-"
-" Automaically open Nerdtree
-" autocmd vimenter * NERDTree
-map <C-n> :NERDTreeTabsToggle<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-
-" GitGutter
-let g:gitgutter_sign_column_always = 1 " Always show sign column
-
-" vim-markdown
-let g:vim_markdown_folding_disabled=1
 
 " Rainbow Parentheses
 let g:rbpt_colorpairs = [

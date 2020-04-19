@@ -1,32 +1,5 @@
 # vim: filetype=sh
 
-alias brewup="brew update && brew upgrade && brew cleanup"
-alias claer="clear"
-alias dir="ls"
 alias dot="~/.dotfiles/install.sh"
-alias editconfig="vim ~/.zshrc"
-alias editvim="vim ~/.vimrc"
-alias gc="git checkout"
-alias gcb="git checkout -b"
-alias gco="git commit"
-alias gitcleanup="git branch --merged master | grep -v \"* master\" | xargs git branch -D"
-alias gst="git status"
 alias loopnzb="while (True) { sleep 5; movenzb; }"
 alias reload="source ~/.zshrc"
-alias server="python -m SimpleHTTPServer"
-alias vag="vagrant"
-
-if [[ $LINUX = true ]]; then
-  function search() {
-    sudo apt-cache search $1 | grep -i $1
-  }
-
-  # Linux
-  alias i="sudo apt-get install"
-  alias upbuntu="sudo apt-get update && sudo apt-get -y install && sudo apt-get autoremove"
-else
-  # OS X
-  alias brewup="brew update && brew upgrade"
-  alias i="brew install"
-  alias spotify="osascript $DOTFILES/scripts/SpotifyControl.scpt"
-fi
