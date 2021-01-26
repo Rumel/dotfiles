@@ -12,7 +12,5 @@ color_echo "Updating rbenv"
 cd ~/.rbenv && git pull
 color_echo "Updating ruby-build"
 cd ~/.rbenv/plugins/ruby-build && git pull
-color_echo "Updating autojump"
-cd /usr/local/autojump && git pull
 
 color_echo "Updated!"

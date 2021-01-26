@@ -153,13 +153,6 @@ clone_repo https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim ~/.
 
 mkdir -p $HOME/go
 
-if [[ ! -d "/usr/local/autojump" ]]; then
-  sudo chown `whoami` /usr/local
-  git clone git://github.com/joelthelion/autojump.git /usr/local/autojump
-  cd /usr/local/autojump
-  ./install.py 
-fi
-
 info "Updating Vim plugins"
 vim +PluginInstall +qall
 
