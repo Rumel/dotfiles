@@ -8,9 +8,5 @@ color_echo "Updating dotfiles"
 cd ~/.dotfiles && git pull
 color_echo "Running install script"
 cd ~/.dotfiles && ./install.sh
-color_echo "Updating rbenv"
-cd ~/.rbenv && git pull
-color_echo "Updating ruby-build"
-cd ~/.rbenv/plugins/ruby-build && git pull
 
 color_echo "Updated!"

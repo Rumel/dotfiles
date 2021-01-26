@@ -146,12 +146,20 @@ clone_repo() {
 
 install_dotfiles
 
+# Install brew packages
+if hash brew 2> /dev/null; then
+  xargs brew install < ~/.dotfiles/brew/installs
+else
+  echo "Brew needs to be installed"
+fi
+
 clone_repo https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-clone_repo https://github.com/sstephenson/rbenv.git ~/.rbenv
-clone_repo https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 clone_repo https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim ~/.vim/bundle ~/.vim
 
 mkdir -p $HOME/go
+
+info "Installing rust"
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 info "Updating Vim plugins"
 vim +PluginInstall +qall
