@@ -2,7 +2,6 @@ awscli
 elixir
 git
 golang
-nvm
 rbenv
 tmux
 vim

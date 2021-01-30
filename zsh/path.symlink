@@ -15,3 +15,4 @@ export PATH=/opt/local/sbin:$PATH
 export PATH=/usr/local/share/dotnet:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=/opt/homebrew/bin:$PATH
+export PATH=$VOLTA_HOME/bin:$PATH
