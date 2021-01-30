@@ -146,19 +146,11 @@ clone_repo() {
 
 install_dotfiles
 
-# if hash brew 2> /dev/null; then
-#   # xargs brew install < ~/.dotfiles/brew/installs
-#   cat ~/.dotfiles/brew/installs | while read line 
-#   do
-#     if ! [[ hash $line 2> /dev/null ]]; then
-#       brew upgrade $line
-#     else
-#       brew install $line
-#     fi
-#   done
-# else
-#   echo "Brew needs to be installed"
-# fi
+if hash brew 2> /dev/null; then
+  brew bundle -v
+else
+  echo "Brew needs to be installed"
+fi
 
 if ! hash rustc 2> /dev/null; then
   info "Installing rust"

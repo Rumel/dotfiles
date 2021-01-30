@@ -2,3 +2,4 @@
 local.zsh
 .DS_Store
 zsh/local-machine.symlink
+Brewfile.lock.json
