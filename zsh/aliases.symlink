@@ -1,5 +1,0 @@
-# vim: filetype=sh
-
-alias dot="~/.dotfiles/install.sh"
-alias loopnzb="while (True) { sleep 5; movenzb; }"
-alias reload="source ~/.zshrc"
