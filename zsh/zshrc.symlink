@@ -55,6 +55,7 @@ export PATH=/opt/local/sbin:$PATH
 export PATH=/usr/local/share/dotnet:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=/opt/homebrew/bin:$PATH
+export PATH=/opt/homebrew/sbin:$PATH
 export PATH=$VOLTA_HOME/bin:$PATH
 
 source ~/.local-machine
@@ -101,10 +102,16 @@ if hash starship 2> /dev/null; then
   eval "$(starship init zsh)"
 fi
 
-autoload -U compinit && compinit -u
-
-autoload bashcompinit && bashcompinit
-
 if hash aws_completer 2> /dev/null; then
   complete -C '/opt/homebrew/bin/aws_completer' aws
 fi
+
+if hash git_extras 2> /dev/null; then
+  source /opt/homebrew/opt/git-extras/share/git-extras/git-extras-completion.zsh
+fi
+
+rm -f ~/.zcompdump
+
+autoload -U compinit && compinit -u
+
+autoload bashcompinit && bashcompinit
