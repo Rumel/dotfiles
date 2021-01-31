@@ -110,8 +110,10 @@ if hash git_extras 2> /dev/null; then
   source /opt/homebrew/opt/git-extras/share/git-extras/git-extras-completion.zsh
 fi
 
+[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+
 rm -f ~/.zcompdump
 
-autoload -U compinit && compinit -u
+autoload -Uz compinit && compinit
 
 autoload bashcompinit && bashcompinit

@@ -3,6 +3,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/homebrew-cask-versions'
 
+brew 'autojump'
 brew 'awscli'
 brew 'bash'
 brew 'bat'
