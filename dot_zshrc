@@ -50,4 +50,6 @@ fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Anything local that shouldn't be in git
-source ~/.local-machine
+[ -f ~/.local-machine ] && source ~/.local-machine
+
+return 0
