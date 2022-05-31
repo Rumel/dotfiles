@@ -1,0 +1,47 @@
+[hub]
+  protocol = https
+
+[user]
+  name = Dalton Dick
+  email = daltondick2010@gmail.com
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  ui = true
+
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim 
+
+[apply]
+  whitespace = nowarn
+
+[mergetool]
+  keepBackup = false
+
+[difftool]
+  prompt = false
+
+[help]
+  autocorrect = 1
+
+[push]
+  # See `git help config` (search for push.default)
+  # for more information on different options of the below setting.
+  #
+  # Setting to git 2.0 default to surpress warning message
+  default = current
+
+[alias]
+  pretty = "log --pretty=format:'%Cred%h%Creset %Cblue%an:%Creset %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+  ten = "!git --no-pager pretty -n 10"
+  untemp = reset HEAD~1
+  temp = commit -am 'TEMP'
+
+[filter "lfs"]
+  required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process

@@ -1,0 +1,53 @@
+if [ "$(uname -s)" = "Linux" ]; then
+  export LINUX=true
+else
+  export OSX=true
+fi
+
+# Aliases
+if [ "$OSX" = "true" ]; then
+  alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
+fi
+alias cz="chezmoi"
+alias loopnzb="while (True) { sleep 5; movenzb; }"
+if hash lsd 2> /dev/null; then
+  alias ls="lsd"
+fi
+alias reload="source ~/.zshrc"
+
+export EDITOR=vim
+export HISTFILE=~/.zshistory
+export HISTSIZE=1000000
+export SAVEHIST=1000000
+
+if hash starship 2> /dev/null; then
+  eval "$(starship init zsh)"
+fi
+
+if hash asdf 2> /dev/null; then
+  . /opt/homebrew/opt/asdf/libexec/asdf.sh
+fi
+
+if [ "$LINUX" = "true" ]; then
+  source ~/.linux-path
+else
+  source ~/.osx-path
+fi
+
+# https://docs.brew.sh/Shell-Completion
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
+  autoload -Uz compinit
+  compinit
+fi
+
+if type zoxide &>/dev/null; then
+  eval "$(zoxide init zsh)"
+fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Anything local that shouldn't be in git
+source ~/.local-machine
