@@ -15,23 +15,18 @@ if hash lsd 2> /dev/null; then
 fi
 alias reload="source ~/.zshrc"
 
+# Exports
 export EDITOR=vim
 export HISTFILE=~/.zshistory
 export HISTSIZE=1000000
 export SAVEHIST=1000000
 
+# Options
+setopt share_history
+
+# Load programs
 if hash starship 2> /dev/null; then
   eval "$(starship init zsh)"
-fi
-
-if hash asdf 2> /dev/null; then
-  . /opt/homebrew/opt/asdf/libexec/asdf.sh
-fi
-
-if [ "$LINUX" = "true" ]; then
-  source ~/.linux-path
-else
-  source ~/.osx-path
 fi
 
 # https://docs.brew.sh/Shell-Completion
@@ -43,11 +38,21 @@ then
   compinit
 fi
 
+if hash asdf 2> /dev/null; then
+  . /opt/homebrew/opt/asdf/libexec/asdf.sh
+fi
+
 if type zoxide &>/dev/null; then
   eval "$(zoxide init zsh)"
 fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+if [ "$LINUX" = "true" ]; then
+  source ~/.linux-path
+else
+  source ~/.osx-path
+fi
 
 # Anything local that shouldn't be in git
 [ -f ~/.local-machine ] && source ~/.local-machine
