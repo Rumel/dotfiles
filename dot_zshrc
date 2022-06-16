@@ -9,6 +9,10 @@ if [ "$OSX" = "true" ]; then
   alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 fi
 alias cz="chezmoi"
+if hash hub 2> /dev/null; then
+  alias git="hub"
+fi
+alias killforeman='ps aux | grep foreman | sed -E "s/ +/ /g" | cut -d " " -f 2 | xargs kill -9'
 alias loopnzb="while (True) { sleep 5; movenzb; }"
 if hash lsd 2> /dev/null; then
   alias ls="lsd"
