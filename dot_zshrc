@@ -17,6 +17,8 @@ alias loopnzb="while (True) { sleep 5; movenzb; }"
 if hash lsd 2> /dev/null; then
   alias ls="lsd"
 fi
+alias la="ls -al"
+alias ll="ls -l"
 alias movenzb="~/.bin/movenzb"
 alias reload="source ~/.zshrc"
 
