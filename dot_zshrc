@@ -23,7 +23,11 @@ alias movenzb="~/.bin/movenzb"
 alias reload="source ~/.zshrc"
 
 # Exports
-export EDITOR=vim
+if type nvim &>/dev/null; then
+  export EDITOR=nvim
+else
+  export EDITOR=vim
+fi
 export HISTFILE=~/.zshistory
 export HISTSIZE=1000000
 export SAVEHIST=1000000
