@@ -19,8 +19,17 @@ if hash lsd 2> /dev/null; then
 fi
 alias la="ls -al"
 alias ll="ls -l"
-alias movenzb="~/.bin/movenzb"
 alias reload="source ~/.zshrc"
+
+movenzb() {
+  files=$(ls $HOME/Desktop/*.nzb | wc -l | tr -d " ")
+  if [ $files = "0" ]; then
+    echo "Found 0 nzbs"
+  else
+    echo "Moving $files nzbs"
+    $(mv $HOME/Desktop/*.nzb $HOME/Dropbox/Usenet)
+  fi
+}
 
 # Exports
 if type nvim &>/dev/null; then
