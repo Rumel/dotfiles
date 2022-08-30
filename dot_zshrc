@@ -62,7 +62,7 @@ if hash asdf 2> /dev/null; then
   if [ "$OSX" = "true" ]; then
     . /opt/homebrew/opt/asdf/libexec/asdf.sh
   else
-    . $HOME/.asdf/asdf.sh 
+    . $(brew --prefix asdf)/asdf.sh 
   fi
 fi
 
