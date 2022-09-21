@@ -1,3 +1,4 @@
+# https://github.com/Homebrew/homebrew-bundle
 tap 'homebrew/bundle'
 
 brew 'asdf'
@@ -34,3 +35,5 @@ cask 'insomnia'
 cask 'neovide'
 cask 'opera'
 cask 'vivaldi'
+
+mas 'Pixea', id: 1507782672
