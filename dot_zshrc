@@ -31,6 +31,10 @@ movenzb() {
   fi
 }
 
+weather() {
+  curl "wttr.in/$1"
+}
+
 # Exports
 if type nvim &>/dev/null; then
   export EDITOR=nvim
