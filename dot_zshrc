@@ -76,6 +76,8 @@ fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+export PATH="$HOME/.emacs.d/bin:$PATH"
+
 if [ "$LINUX" = "true" ]; then
   source ~/.linux-path
 else
