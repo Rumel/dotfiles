@@ -87,6 +87,9 @@ fi
 # Anything local that shouldn't be in git
 [ -f ~/.local-machine ] && source ~/.local-machine
 
+# Default to emacs keybindings
+bindkey -e
+
 # Enable Ctrl-x-e to edit command line
 autoload -U edit-command-line
 # Emacs style
