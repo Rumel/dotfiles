@@ -4,21 +4,29 @@ else
   export OSX=true
 fi
 
+program_exists() {
+  hash $1 &>/dev/null
+}
+
 # Aliases
 if [ "$OSX" = "true" ]; then
   alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 fi
+if program_exists bat; then
+  alias cat="bat"
+fi
 alias cz="chezmoi"
-if hash hub 2> /dev/null; then
+if program_exists hub; then
   alias git="hub"
 fi
 alias killforeman='ps aux | grep foreman | sed -E "s/ +/ /g" | cut -d " " -f 2 | xargs kill -9'
 alias loopnzb="while (True) { sleep 5; movenzb; }"
-if hash lsd 2> /dev/null; then
+if program_exists ls; then
   alias ls="lsd"
 fi
 alias la="ls -al"
 alias ll="ls -l"
+alias printpath="echo $PATH | sed 's/:/\n/g"
 alias reload="source ~/.zshrc"
 
 movenzb() {
@@ -36,7 +44,7 @@ weather() {
 }
 
 # Exports
-if type nvim &>/dev/null; then
+if program_exists nvim; then
   export EDITOR=nvim
 else
   export EDITOR=vim
@@ -49,40 +57,33 @@ export SAVEHIST=1000000
 setopt share_history
 
 # Load programs
-if hash starship 2> /dev/null; then
+if program_exists starship; then
   eval "$(starship init zsh)"
 fi
 
 # https://docs.brew.sh/Shell-Completion
-if type brew &>/dev/null
-then
+if program_exists brew; then
   FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 
   autoload -Uz compinit
   compinit
 fi
 
-if hash asdf 2> /dev/null; then
-  if [ "$OSX" = "true" ]; then
-    . /opt/homebrew/opt/asdf/libexec/asdf.sh
-  else
-    . $(brew --prefix asdf)/asdf.sh 
-  fi
+if program_exists asdf; then
+  . $(brew --prefix asdf)/asdf.sh 
 fi
 
-if type zoxide &>/dev/null; then
+if program_exists zoxide; then
   eval "$(zoxide init zsh)"
+  alias cd="z"
 fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.asdf/plugins/java/set-java-home.zsh ] && . ~/.asdf/plugins/java/set-java-home.zsh
 
 export PATH="$HOME/.emacs.d/bin:$PATH"
-
-if [ "$LINUX" = "true" ]; then
-  source ~/.linux-path
-else
-  source ~/.osx-path
-fi
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.bin:$PATH"
 
 # Anything local that shouldn't be in git
 [ -f ~/.local-machine ] && source ~/.local-machine
