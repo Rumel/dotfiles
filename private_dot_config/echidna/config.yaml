@@ -1,0 +1,253 @@
+---
+  playlists:
+    - title: Highlights
+      id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
+      order: date
+    - title: Educational
+      id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+      order: title
+    - title: Cooking
+      id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+      order: title
+    - title: Comedy
+      id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt- 
+      order: title
+    - title: Racing Channels
+      id: PLdP6kCUEAT1_f8RxTMTC45lggW9tBI8ei
+      order: title
+  channels:
+    - name: Huskers
+      id: UCMqWeJDl7yjblwPKVNo4XfA
+      filter: ((Basketball|Football|Vollebyall).*(Highlights))|(((Highlights).*(Basketball|Football|Vollebyall))) 
+      max_results: 50 
+      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
+    - name: NHL
+      id: UCqFMzb-4AUf6WAIbl132QKA
+      filter: (Blues).*(Highlights)
+      max_results: 50 
+      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
+    - name: Cardinals
+      id: UCwaMqLYzbyp2IbFgcF_s5Og
+      filter: Highlights
+      max_results: 25
+      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
+    - name: MatthewLovesBall
+      id: UC4GNCKohtEHRccrxKQiDJNg
+      filter: Nebraska
+      max_results: 50
+      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
+    - name: Formula 1
+      id: UCB_qr75-ydFVKSF9Dmo6izg
+      filter: Highlights
+      max_results: 25
+      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
+    - name: Liverpool FC
+      id: UC9LQwHZoucFT94I2h6JOcjw
+      filter: HIGHLIGHTS
+      max_results: 25
+      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
+    - name: Wendover Productions
+      id: UC9RM-iSvTu1uPJb8X5yp3EQ
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    - name: Half as Interesting
+      id: UCuCkxoKLYO_EQ2GeFtbM_bw
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    - name: Adam Ragusea
+      id: UC9_p50tH3WmMslWRWKnM7dQ
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: FrenchGuyCooking
+      id: UCPzFLpOblZEaIx2lpym1l1A
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: Babish Culinary Universe
+      id: UCJHA_jMfCvEnv-3kRjTCQXw
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: Brian Lagerstrom
+      id: UCn5fhcGRrCvrmFibPbT6q1A
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: Charlie Berens
+      id: UConQeJRfaLwJ9LbXBS5nhxQ
+      filter: null
+      max_results: 10 
+      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt- 
+    - name: Dude Dad
+      id: UCnQjDnWKwV81mXEiuiA9Vqg
+      filter: null
+      max_results: 10 
+      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
+    - name: Ethan Chlebowski
+      id: UCDq5v10l4wkV5-ZBIJJFbzQ
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: Girls Gone Mild
+      id: UC7cqInSSKsLekgbL6rgtD8Q
+      filter: null
+      max_results: 10 
+      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
+    - name: Howtobbqright
+      id: UC--MxpGXJ3LVD8KvlNzRlcA
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: Jean Shorts Comedy
+      id: UCwPbo954s0LdffSSXh07E0g
+      filter: null
+      max_results: 10 
+      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
+    - name: Johnny Harris
+      id: UCmGSJVG3mCRXVOP4yZrU1Dw
+      filter: null
+      max_results: 15 
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC 
+    - name: Joshua Weissman
+      id: UChBEbMKI1eCcejTtmI32UEw
+      filter: null
+      max_results: 15
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: Mad Scientist BBQ
+      id: UCselvHbb5ah0sEqZrFa-7nA
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: Mark Rober
+      id: UCY1kMZp36IQSyNx_9h4mpCg
+      filter: null
+      max_results: 5 
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    - name: Not another cooking show
+      id: UCuL-5ytBmu6KG0BwjSFaD0g
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: Not just bikes
+      id: UC0intLFzLaudFG-xAvUEO-A
+      filter: null
+      max_results: 5
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    - name: City Beautiful
+      id: UCGc8ZVCsrR3dAuhvUbkbToQ
+      filter: null
+      max_results: 5
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    - name: Polymatter
+      id: UCgNg3vwj3xt7QOrcIDaHdFg
+      filter: null
+      max_results: 5
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    - name: SortedFood
+      id: UCfyehHM_eo4g5JUyWmms2LA
+      filter: null
+      max_results: 15
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: Trey Kennedy
+      id: UCP7LUz8TKiOARTD8LdrVgXQ
+      filter: null
+      max_results: 10 
+      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
+    - name: You Betcha
+      id: UCM7I_NC8mIyNLlslSi129ow
+      filter: null
+      max_results: 10 
+      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
+    - name: You Suck at Cooking
+      id: UCekQr9znsk2vWxBo3YiLq2w
+      filter: null
+      max_results: 5
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: RealLifeLore
+      id: UCP5tjEmvPItGyLhmjdwP7Ww
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    - name: CompanyMan
+      id: UCQMyhrt92_8XM0KgZH6VnRg
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    - name: Frank James
+      id: UCxc0c4cOfFmSUnzX9uY7Jww
+      filter: ^16 Personalities
+      max_results: 25
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    - name: Matty Matheson
+      id: UCpqH8-BBNTsluhcOzFKWLuw
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: Future Proof
+      id: UC-OJ-24roEfQ_-PCnLJSckg
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    - name: HoldernessFamilyVlogs
+      id: UCq0a1MKwg_l0tN56r8u1ZSA
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
+    - name: Holderness Family Music
+      id: UCl2axinLKd00nMBW6RTASag
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
+    - name: Weird History Food
+      id: UCNaq5Jh4SQ1oBAjhQ0KPhoA
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    - name: Fireship
+      id: UCsBjURrPoezykLs9EqgamOA
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    - name: HellthyJunkFood
+      id: UCY1Yc3xA1aY0lqnKUTDTi7A
+      filter: null
+      max_results: 15
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: Tommo F1
+      id: UCFHaLSX-Kqy5pGTszklkE8w
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT1_f8RxTMTC45lggW9tBI8ei
+    - name: Chain Bear
+      id: UC7u-Dg0jb7g9s7XjmtJrtpg
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT1_f8RxTMTC45lggW9tBI8ei
+    - name: Josh revell
+      id: UCSawmZ2PP6R7EURKRMNYXMw
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT1_f8RxTMTC45lggW9tBI8ei
+    - name: Lincoln Stars
+      id: UCREe8IzbETPDydu6NHzve9A
+      filter: (Highlights)
+      max_results: 5
+      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
+    - name: Meat Church BBQ
+      id: UCPjkdaqksNWgA63aZfQ2bAQ
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: Eater
+      id: UCRzPUBhXUZHclB7B5bURFXw
+      filter: null
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl 
+    - name: First We Feast
+      id: UCPD_bxCRGpmmeQcbe2kpPaA
+      filter: (Burger Show)|(Burger Scholar)
+      max_results: 10
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
