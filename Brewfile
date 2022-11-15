@@ -1,5 +1,6 @@
 # https://github.com/Homebrew/homebrew-bundle
 tap 'homebrew/bundle'
+tap 'homebrew/cask-fonts'
 
 brew 'asdf'
 brew 'autojump'
