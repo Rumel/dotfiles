@@ -17,6 +17,7 @@ asdf plugin add kubectl || true
 asdf plugin add nodejs || true
 asdf plugin add python || true
 asdf plugin add ruby || true
+asdf plugin add rust || true
 asdf plugin add yarn || true
 
 log "Updating AWS CLI"
@@ -56,6 +57,10 @@ asdf global python latest
 log "Updating ruby"
 asdf install ruby latest
 asdf global ruby latest
+
+log "Updating rust"
+asdf install rust latest
+asdf global rust latest
 
 log "Updating yarn"
 asdf install yarn latest
