@@ -3,9 +3,7 @@
 set -v
 
 log() {
-  GREEN='\033[0;32m'
-  NC='\033[0m'
-  printf "${GREEN}${1}${NC}\n"
+  printf "\033[0;32m%s\033[0m\n" "$1"
 }
 
 asdf plugin add awscli || true 
@@ -63,12 +61,12 @@ log "Updating yarn"
 asdf install yarn latest
 asdf global yarn latest
 
-log "Updating erlang"
-asdf install erlang latest
-asdf global erlang latest
-
-log "Updating elixir"
-asdf install elixir latest
-asdf global elixir latest
+# log "Updating erlang"
+# asdf install erlang latest
+# asdf global erlang latest
+#
+# log "Updating elixir"
+# asdf install elixir latest
+# asdf global elixir latest
 
 asdf reshim
