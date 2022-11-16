@@ -15,6 +15,8 @@ asdf plugin add golang || true
 asdf plugin add java || true
 asdf plugin add kubectl || true
 asdf plugin add nodejs || true
+asdf plugin add perl || true
+asdf plugin add powershell-core || true
 asdf plugin add python || true
 asdf plugin add ruby || true
 asdf plugin add rust || true
@@ -49,6 +51,14 @@ log "Updating nodejs"
 asdf install nodejs lts
 asdf install nodejs latest
 asdf global nodejs latest lts
+
+log "Updating perl"
+asdf install perl latest
+asdf global perl latest
+
+log "Updating powerhsell"
+asdf install powershell-core latest
+asdf global powershell-core latest
 
 log "Updating python"
 asdf install python latest
