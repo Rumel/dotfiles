@@ -30,7 +30,7 @@ alias printpath="echo $PATH | sed 's/:/\n/g"
 alias reload="source ~/.zshrc"
 
 movenzb() {
-  files=$(ls $HOME/Desktop/*.nzb | wc -l | tr -d " ")
+  files=$(find $HOME/Desktop -name '*.nzb' | wc -l | tr -d " ")
   if [ $files = "0" ]; then
     echo "Found 0 nzbs"
   else
