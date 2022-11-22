@@ -15,6 +15,9 @@
     - title: Racing Channels
       id: PLdP6kCUEAT1_f8RxTMTC45lggW9tBI8ei
       order: title
+    - title: Hunting
+      id: PLdP6kCUEAT1-BzwicWNWOREY8omucnhHC
+      order: title
   channels:
     - name: Huskers
       id: UCMqWeJDl7yjblwPKVNo4XfA
@@ -270,5 +273,9 @@
       filter: null
       id: UCEHFikgnRuLd1HYKTLrae9Q
       max_results: 5
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
-
+      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPt
+    - name: Samong Outdoors
+      filter: null
+      id: UCjltlCCNlkir3ATTSIamnnA
+      max_results: 5
+      playlist_id: PLdP6kCUEAT1-BzwicWNWOREY8omucnhHC
