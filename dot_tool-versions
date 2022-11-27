@@ -6,8 +6,8 @@ yarn 1.22.19
 kubectl 1.25.4
 elixir 1.14.2-otp-25
 erlang 25.1.2
-java corretto-19.0.1.10.1
-awscli 2.8.12
+java corretto-musl-19.0.1.10.1
+awscli 2.9.1
 dotnet-core 6.0.401
 clojure 1.11.1.1200
 dotnet 7.0.100
