@@ -1,18 +1,22 @@
 ruby 3.1.2 jruby-9.3.9.0 truffleruby-22.3.0
-nodejs 19.1.0 lts
-python 3.11.0 pypy3.9-7.3.10
-golang 1.19.3
+nodejs 19.3.0 lts
+python 3.11.1 pypy3.9-7.3.10
+golang 1.19.4
 yarn 1.22.19
-kubectl 1.25.4
+kubectl 1.26.0
 elixir 1.14.2-otp-25
-erlang 25.1.2
+erlang 25.2
 java corretto-19.0.1.10.1
 awscli 2.9.10
 dotnet-core 6.0.401
 clojure 1.11.1.1208
-dotnet 7.0.100
+dotnet 7.0.101
 rust 1.66.0
-perl 5.37.5
+perl 5.37.7
 powershell-core 7.3.0
 babashka 1.0.167
 scala 3.2.1
+haskell 9.4.4
+ocaml 5.0.0
+opam 2.1.4
+sbt 1.8.0

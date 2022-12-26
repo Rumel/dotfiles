@@ -61,13 +61,19 @@ log "Updating powerhsell"
 asdf install powershell-core latest
 asdf global powershell-core latest
 
+PYPY=$(asdf list all python pypy | tail -n 1)
 log "Updating python"
 asdf install python latest
-asdf global python latest
+asdf install python "$PYPY"
+asdf global python latest "$PYPY"
 
+JRUBY=$(asdf list all ruby jruby | tail -n 1)
+TRUFFLERUBY=$(asdf list all ruby truffleruby- | tail -n 1)
 log "Updating ruby"
 asdf install ruby latest
-asdf global ruby latest
+asdf install ruby "$JRUBY"
+asdf install ruby "$TRUFFLERUBY"
+asdf global ruby latest "$JRUBY" "$TRUFFLERUBY"
 
 log "Updating rust"
 asdf install rust latest
@@ -81,12 +87,16 @@ log "Updating yarn"
 asdf install yarn latest
 asdf global yarn latest
 
-# log "Updating erlang"
-# asdf install erlang latest
-# asdf global erlang latest
-#
-# log "Updating elixir"
-# asdf install elixir latest
-# asdf global elixir latest
+ERLANG=$(asdf list all erlang | tail -n 1)
+OTP=$(echo $ERLANG | cut -f 1 -d ".")
+log "Updating erlang"
+asdf install erlang "$ERLANG"
+asdf global erlang "$ERLANG"
+
+
+ELIXIR=$(asdf list all elixir | grep -E "\d+.\d+\.\d+-otp-$OTP" | tail -n 1)
+log "Updating elixir"
+asdf install elixir "$ELIXIR"
+asdf global elixir "$ELIXIR"
 
 asdf reshim
