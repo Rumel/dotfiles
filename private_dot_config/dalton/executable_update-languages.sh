@@ -20,6 +20,7 @@ asdf plugin add powershell-core || true
 asdf plugin add python || true
 asdf plugin add ruby || true
 asdf plugin add rust || true
+asdf plugin add scala || true
 asdf plugin add yarn || true
 
 log "Updating AWS CLI"
@@ -71,6 +72,10 @@ asdf global ruby latest
 log "Updating rust"
 asdf install rust latest
 asdf global rust latest
+
+log "Updating scala"
+asdf install scala latest
+asdf global scala latest
 
 log "Updating yarn"
 asdf install yarn latest
