@@ -6,6 +6,9 @@ log() {
   printf "\033[0;32m%s\033[0m\n" "$1"
 }
 
+log "Updating ASDF plugins"
+asdf plugin update --all
+
 asdf plugin add awscli || true 
 asdf plugin add clojure || true 
 asdf plugin add dotnet || true
