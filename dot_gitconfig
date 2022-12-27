@@ -13,6 +13,10 @@
 
 [core]
   excludesfile = ~/.gitignore
+  pager = delta
+
+[diff]
+  colorMoved = default
 
 [apply]
   whitespace = nowarn
@@ -45,4 +49,6 @@
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
 [pull]
-	rebase = true
+  rebase = true
+[delta]
+  navigate = true
