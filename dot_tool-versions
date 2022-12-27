@@ -1,6 +1,6 @@
 ruby 3.2.0 jruby-9.4.0.0 truffleruby-22.3.0
 nodejs 19.3.0 lts
-python 3.11.1 pypy3.9-7.3.10
+python 3.11.1 pypy3.9-7.3.10 anaconda3-2022.10
 golang 1.19.4
 yarn 1.22.19
 kubectl 1.26.0

@@ -65,10 +65,12 @@ asdf install powershell-core latest
 asdf global powershell-core latest
 
 PYPY=$(asdf list all python pypy | tail -n 1)
+ANACONDA=$(asdf list all python anaconda | tail -n 1)
 log "Updating python"
 asdf install python latest
 asdf install python "$PYPY"
-asdf global python latest "$PYPY"
+asdf install python "$ANACONDA"
+asdf global python latest "$PYPY" "$ANACONDA"
 
 JRUBY=$(asdf list all ruby jruby | tail -n 1)
 TRUFFLERUBY=$(asdf list all ruby truffleruby- | tail -n 1)
