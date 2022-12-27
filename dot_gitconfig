@@ -18,8 +18,14 @@
 [diff]
   colorMoved = default
 
+[interactive]
+  diffFilter = delta --color-only
+
 [apply]
   whitespace = nowarn
+
+[merge]
+  conflictstyle = diff3
 
 [mergetool]
   keepBackup = false
@@ -48,7 +54,10 @@
   clean = git-lfs clean -- %f
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
+
 [pull]
   rebase = true
+
 [delta]
   navigate = true
+  features = side-by-side line-numbers
