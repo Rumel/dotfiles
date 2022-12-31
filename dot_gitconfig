@@ -60,4 +60,4 @@
 
 [delta]
   navigate = true
-  features = side-by-side line-numbers
+  features = line-numbers
