@@ -26,7 +26,7 @@ return require('packer').startup(function(use)
 		config = function()
 			vim.cmd('colorscheme rose-pine')
 		end
-	}	
+	}
 
 	use {
 		'nvim-treesitter/nvim-treesitter',
@@ -59,4 +59,11 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'},
 		}
 	}
+
+  use {
+    'lewis6991/gitsigns.nvim',
+    config = function()
+      require('gitsigns').setup()
+    end
+  }
 end)
