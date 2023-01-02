@@ -1,4 +1,9 @@
-local wk = require("which-key")
+local status, wk = pcall(require, "which-key")
+
+if not status then
+  print("which-key didn't load")
+  return
+end
 
 wk.register({
   g = { name = "Git" }

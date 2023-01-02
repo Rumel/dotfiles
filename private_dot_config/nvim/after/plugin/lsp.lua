@@ -1,4 +1,10 @@
-local lsp = require('lsp-zero')
+local status, lsp = pcall(require, 'lsp-zero')
+
+if not status then
+  print("lsp-zero didn't load")
+  return
+end
+
 lsp.preset('recommended')
 
 lsp.ensure_installed({

@@ -1,14 +1,13 @@
-local status_trouble, trouble = pcall(require, "trouble")
-local status_wk, wk = pcall(require, "which-key")
+local status, trouble = pcall(require, "trouble")
 
-print("test")
-
-if not status_trouble then
+if not status then
   print("Trouble didn't load")
   return
 end
 
-if not status_wk then
+local status, wk = pcall(require, "which-key")
+
+if not status then
   print("WhichKey didn't load")
   return
 end

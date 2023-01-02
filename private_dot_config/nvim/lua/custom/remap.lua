@@ -1,5 +1,3 @@
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-
 -- Better ESC
 vim.keymap.set("i", "jj", "<ESC>")
 vim.keymap.set("i", "jk", "<ESC>")
