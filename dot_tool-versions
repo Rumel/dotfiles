@@ -1,6 +1,6 @@
-ruby 3.2.0 jruby-9.4.0.0 truffleruby-22.3.0
+ruby 3.2.0 jruby-9.4.0.0 truffleruby-22.3.0 system
 nodejs 19.3.0 lts
-python 3.11.1 pypy3.9-7.3.10 anaconda3-2022.10
+python 3.11.1 pypy3.9-7.3.11 system
 golang 1.19.4
 yarn 1.22.19
 kubectl 1.26.0
@@ -12,7 +12,7 @@ dotnet-core 6.0.401
 clojure 1.11.1.1208
 dotnet 7.0.101
 rust 1.66.0
-perl 5.36.0
+perl 5.36.0 system
 powershell-core 7.3.0
 babashka 1.0.167
 scala 3.2.1
