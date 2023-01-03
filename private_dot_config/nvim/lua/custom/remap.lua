@@ -26,6 +26,8 @@ vim.keymap.set("n", "<leader>j", "<cmd>cprev<CR>zz")
 vim.keymap.set("n", "<leader>bn", "<cmd>bnext<CR>", { desc = "Next buffer" } )
 vim.keymap.set("n", "<leader>bp", "<cmd>bprev<CR>", { desc = "Previous buffer" })
 
+vim.keymap.set("n", "<leader>bx", "<cmd>bdelete<CR>", { desc = "Delete buffer" })
+
 local status, wk = pcall(require, "which-key")
 
 if not status then
