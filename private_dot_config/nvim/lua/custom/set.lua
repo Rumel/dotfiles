@@ -29,3 +29,6 @@ vim.opt.colorcolumn = "80"
 vim.g.mapleader = " "
 
 vim.opt.signcolumn = 'yes'
+
+vim.opt.foldlevel = 20
+vim.opt.foldlevelstart = 20
