@@ -84,6 +84,8 @@ fi
 export PATH="$PATH:$HOME/.emacs.d/bin"
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$HOME/.bin:$PATH"
+# This is a fix for gettext conflicting with Anaconda's gettext
+export PATH="$(brew --prefix gettext)/bin:$PATH"
 
 # Anything local that shouldn't be in git
 [ -f ~/.local-machine ] && source ~/.local-machine
