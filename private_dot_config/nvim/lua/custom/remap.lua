@@ -21,3 +21,18 @@ vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
 vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
 vim.keymap.set("n", "<leader>k", "<cmd>cnext<CR>zz")
 vim.keymap.set("n", "<leader>j", "<cmd>cprev<CR>zz")
+
+-- Move between buffers
+vim.keymap.set("n", "<leader>bn", "<cmd>bnext<CR>", { desc = "Next buffer" } )
+vim.keymap.set("n", "<leader>bp", "<cmd>bprev<CR>", { desc = "Previous buffer" })
+
+local status, wk = pcall(require, "which-key")
+
+if not status then
+  print("Which-key did not load")
+  return
+end
+
+wk.register({
+  b = { name = "Buffers" }
+}, { prefix = "<leader>" })
