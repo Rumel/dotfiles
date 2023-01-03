@@ -18,6 +18,6 @@ wk.register({
 
 local keymap = vim.keymap
 
-keymap.set('n', '<leader>pf', builtin.find_files, { desc = "Find Files (no Git)" } )
-keymap.set('n', '<C-p>', builtin.git_files, { desc = "Find files (Git)" } )
-keymap.set('n', '<leader>ps', builtin.live_grep, { desc = "Live Grep" } )
+keymap.set('n', '<leader>pf', builtin.find_files, { desc = "Find Files (no Git)" })
+keymap.set('n', '<C-p>', builtin.git_files, { desc = "Find files (Git)" })
+keymap.set('n', '<leader>ps', builtin.live_grep, { desc = "Live Grep" })
