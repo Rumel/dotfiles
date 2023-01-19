@@ -25,6 +25,7 @@ asdf plugin add erlang || true
 asdf plugin add golang || true
 asdf plugin add java || true
 asdf plugin add kubectl || true
+asdf plugin add lua || true
 asdf plugin add nodejs || true
 asdf plugin add perl || true
 asdf plugin add powershell-core || true
@@ -105,6 +106,15 @@ if [[ $UPDATE = "true" ]]; then
 else
   log "Installing kubectl"
   asdf install kubectl
+fi
+
+if [[ $UPDATE = "true" ]]; then
+  log "Updating lua"
+  asdf install lua latest
+  asdf global lua latest
+else
+  log "Installing lua"
+  asdf install lua
 fi
 
 if [[ $UPDATE = "true" ]]; then
