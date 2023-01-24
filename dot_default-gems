@@ -1,5 +1,7 @@
+awesome_print
 bundler
+faraday
+foreman
+neovim
 pry
 solargraph
-neovim
-awesome_print
