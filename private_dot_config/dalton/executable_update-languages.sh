@@ -2,9 +2,6 @@
 
 set -v
 
-pushd > /dev/null
-cd ~ > /dev/null
-
 UPDATE=false
 if [ "$1" == "-u" ]; then
   UPDATE=true
@@ -249,5 +246,3 @@ else
 fi
 
 asdf reshim
-
-popd > /dev/null
