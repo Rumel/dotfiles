@@ -15,6 +15,7 @@ log "Updating ASDF plugins"
 asdf plugin update --all
 
 asdf plugin add awscli || true 
+asdf plugin add babashka || true 
 asdf plugin add clojure || true 
 asdf plugin add dotnet || true
 asdf plugin add elixir || true
