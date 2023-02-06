@@ -21,6 +21,9 @@ if program_exists hub; then
 fi
 alias killforeman='ps aux | grep foreman | sed -E "s/ +/ /g" | cut -d " " -f 2 | xargs kill -9'
 alias loopnzb="while (True) { sleep 5; movenzb; }"
+if program_exists lazygit; then
+  alias lg="lazygit"
+fi
 if program_exists ls; then
   alias ls="lsd"
 fi
