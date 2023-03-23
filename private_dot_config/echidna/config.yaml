@@ -270,11 +270,6 @@
       id: UCR8gyS7wt4CmDwJ_JC6KP_g
       max_results: 5
       playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    # - name: A Life Engineered
-    #   filter: null
-    #   id: UCEHFikgnRuLd1HYKTLrae9Q
-    #   max_results: 5
-    #   playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPt
     - name: Samong Outdoors
       filter: null
       id: UCjltlCCNlkir3ATTSIamnnA
@@ -290,11 +285,6 @@
       id: UCcjhYlL1WRBjKaJsMH_h7Lg
       max_results: 5
       playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    # - name: Invicta
-    #   filter: null
-    #   id: UCwO-UgquohXwoe7f0e6lMnw
-    #   max_results: 5
-    #   playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
     - name: Matt Whitman
       filter: null
       id: UC3vIOVJiXigzVDA2TYqaa0Q
@@ -325,11 +315,6 @@
       filter: null
       max_results: 5 
       playlist_id: PLdP6kCUEAT1_5xcSPJl1jSOGIs5enbe2S
-    # - name: Matt's Fantasy Book Reviews 
-    #   id: UCJMYShD0sdd_bWR7gJyGq6Q 
-    #   filter: null
-    #   max_results: 5 
-    #   playlist_id: PLdP6kCUEAT1_5xcSPJl1jSOGIs5enbe2S
     - name: Brandon Sanderson 
       id: UC3g-w83Cb5pEAu5UmRrge-A 
       filter: null
@@ -345,3 +330,13 @@
       filter: null
       max_results: 5
       playlist_id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
+    - name: Charlie Anderson
+      filter: null
+      id: UCVJ65ACOGn5FCitRoD9qXEw
+      max_results: 5
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: French Cooking Academy
+      filter: null
+      id: UC0lG3Ihe4LGV851lODRIS5g
+      max_results: 5
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
