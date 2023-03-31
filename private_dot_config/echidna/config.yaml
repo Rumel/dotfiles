@@ -345,3 +345,8 @@
       id: UCp7-cFBse_-lN03U0QvMZyw
       max_results: 5
       playlist_id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
+    - name: MLB
+      id: UCoLrcjPV5PbUrUyXq5mjc_A 
+      filter: Cardinals
+      max_results: 25
+      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
