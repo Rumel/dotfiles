@@ -100,12 +100,12 @@
       filter: null
       max_results: 10
       playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Girls Gone Mild
-      id: UC7cqInSSKsLekgbL6rgtD8Q
-      filter: null
-      max_results: 10 
-      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
-    - name: Howtobbqright
+    # - name: Girls Gone Mild
+    #   id: UC7cqInSSKsLekgbL6rgtD8Q
+    #   filter: null
+    #   max_results: 10 
+    #   playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
+    - name: HowTobbqright
       id: UC--MxpGXJ3LVD8KvlNzRlcA
       filter: null
       max_results: 10
@@ -140,11 +140,11 @@
       filter: null
       max_results: 10
       playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Not just bikes
-      id: UC0intLFzLaudFG-xAvUEO-A
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    # - name: Not just bikes
+    #   id: UC0intLFzLaudFG-xAvUEO-A
+    #   filter: null
+    #   max_results: 5
+    #   playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
     - name: City Beautiful
       id: UCGc8ZVCsrR3dAuhvUbkbToQ
       filter: null
@@ -210,11 +210,11 @@
       filter: null
       max_results: 10
       playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
-    - name: Weird History Food
-      id: UCNaq5Jh4SQ1oBAjhQ0KPhoA
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    # - name: Weird History Food
+    #   id: UCNaq5Jh4SQ1oBAjhQ0KPhoA
+    #   filter: null
+    #   max_results: 10
+    #   playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
     - name: Fireship
       id: UCsBjURrPoezykLs9EqgamOA
       filter: null
@@ -265,11 +265,11 @@
       id: UC19OYOBqkgVqgTIQxbsPdlw
       max_results: 5
       playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: ANTI-CHEF
-      filter: null
-      id: UCR8gyS7wt4CmDwJ_JC6KP_g
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    # - name: ANTI-CHEF
+    #   filter: null
+    #   id: UCR8gyS7wt4CmDwJ_JC6KP_g
+    #   max_results: 5
+    #   playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
     - name: Samong Outdoors
       filter: null
       id: UCjltlCCNlkir3ATTSIamnnA
@@ -305,11 +305,11 @@
       id: UClh4JeqYB1QN6f1h_bzmEng
       max_results: 5
       playlist_id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
-    - name: Tolarian Community College
-      id: UC7-hR5EfgpM6oHfiGDkxfMA 
-      filter: null
-      max_results: 5 
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    # - name: Tolarian Community College
+    #   id: UC7-hR5EfgpM6oHfiGDkxfMA 
+    #   filter: null
+    #   max_results: 5 
+    #   playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
     - name: Library of a Viking 
       id: UCu884YmU8_QrOz94Hbcy96Q 
       filter: null
