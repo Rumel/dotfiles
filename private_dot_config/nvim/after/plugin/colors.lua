@@ -1,5 +1,4 @@
 local installed_themes = {
-  "rose-pine",
   "tokyonight",
   "tokyonight-night",
   "tokyonight-storm",
