@@ -17,6 +17,10 @@
 
 [diff]
   colorMoved = default
+  tool = code
+
+[diff "code"]
+  cmd = code --wait --diff $LOCAL $REMOTE
 
 [interactive]
   diffFilter = delta --color-only
@@ -26,9 +30,13 @@
 
 [merge]
   conflictstyle = diff3
+	tool = code
 
 [mergetool]
   keepBackup = false
+
+[mergetool "code"]
+  cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
 
 [difftool]
   prompt = false
