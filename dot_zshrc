@@ -72,8 +72,12 @@ if program_exists brew; then
   compinit
 fi
 
-if program_exists asdf; then
-  . $(brew --prefix asdf)/libexec/asdf.sh 
+# if program_exists asdf; then
+#   . $(brew --prefix asdf)/libexec/asdf.sh 
+# fi
+
+if program_exists rtx; then
+  eval "$(rtx activate zsh)"
 fi
 
 if program_exists zoxide; then
