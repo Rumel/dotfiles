@@ -76,8 +76,8 @@ fi
 #   . $(brew --prefix asdf)/libexec/asdf.sh 
 # fi
 
-if program_exists rtx; then
-  eval "$(rtx activate zsh)"
+if program_exists mise; then
+  eval "$(mise activate zsh)"
 fi
 
 if program_exists zoxide; then
