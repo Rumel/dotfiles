@@ -24,6 +24,9 @@
     - title: Books
       id: PLdP6kCUEAT1_5xcSPJl1jSOGIs5enbe2S
       order: title
+    - title: French
+      id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
+      order: title
   channels:
     - name: Huskers
       id: UCMqWeJDl7yjblwPKVNo4XfA
@@ -245,11 +248,11 @@
       id: UC19OYOBqkgVqgTIQxbsPdlw
       max_results: 5
       playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    # - name: ANTI-CHEF
-    #   filter: null
-    #   id: UCR8gyS7wt4CmDwJ_JC6KP_g
-    #   max_results: 5
-    #   playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    - name: ANTI-CHEF
+      filter: null
+      id: UCR8gyS7wt4CmDwJ_JC6KP_g
+      max_results: 5
+      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
     - name: Samong Outdoors
       filter: null
       id: UCjltlCCNlkir3ATTSIamnnA
@@ -345,11 +348,11 @@
       filter: null
       max_results: 5
       playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: The Bearded Butchers 
-      id: UC0r6S4hmYdRcDnw7zey7Myg 
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    # - name: The Bearded Butchers 
+    #   id: UC0r6S4hmYdRcDnw7zey7Myg 
+    #   filter: null
+    #   max_results: 5
+    #   playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
     - name: Harry Soo 
       id: UC4dtbTXdvjo272b5x_mxRBw 
       filter: null
@@ -360,4 +363,34 @@
       filter: null
       max_results: 5
       playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-
+    - name: francaisavecnelly
+      id: UClEGQZlQURxTiMdwBPqiKDQ
+      filter: null
+      max_results: 5
+      playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
+    - name: French mornings with Elisa
+      id: UCbj8Qov-9b5WTU1X4y7Yt-w
+      filter: null
+      max_results: 5
+      playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
+    - name: EasyFrench 
+      id: UCoUWq2QawqdC3-nRXKk-JUw
+      filter: null
+      max_results: 5
+      playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
+    - name: French in Plain Sight  
+      id: UC7dUg3m9dD3nRqb5joq2crQ
+      filter: null
+      max_results: 5
+      playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
+    - name: Piece of French
+      id: UCVzyfpNuFF4ENY8zNTIW7ug
+      filter: null
+      max_results: 5
+      playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
+    - name: innerFrench
+      id: UCI4xp8qHD1MDErkqxb1dPbA 
+      filter: null
+      max_results: 5
+      playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
+    
