@@ -2,8 +2,6 @@
 tap 'homebrew/bundle'
 tap 'homebrew/cask-fonts'
 
-brew 'asdf'
-brew 'autojump'
 brew 'awscli'
 brew 'bat'
 brew 'chezmoi'
