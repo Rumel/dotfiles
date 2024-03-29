@@ -26,7 +26,8 @@ brew 'starship'
 brew 'tldr'
 brew 'tree'
 brew 'vim'
-brew 'zsh'
+brew 'zoxide'
+brew 'zsh' if OS.mac?
 
 cask 'amethyst'
 cask 'firefox'
