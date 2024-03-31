@@ -72,10 +72,6 @@ if program_exists brew; then
   compinit
 fi
 
-# if program_exists asdf; then
-#   . $(brew --prefix asdf)/libexec/asdf.sh 
-# fi
-
 if program_exists mise; then
   eval "$(mise activate zsh)"
 fi
@@ -85,8 +81,9 @@ if program_exists zoxide; then
   alias cd="z"
 fi
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-[ -f ~/.asdf/plugins/java/set-java-home.zsh ] && . ~/.asdf/plugins/java/set-java-home.zsh
+if program_exists fzf; then
+  eval "$(fzf --zsh)"
+fi
 
 export PATH="$PATH:$HOME/.emacs.d/bin"
 export PATH="$PATH:$HOME/.local/bin"
