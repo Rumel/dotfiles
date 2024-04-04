@@ -16,9 +16,8 @@ if program_exists bat; then
   alias cat="bat"
 fi
 alias cz="chezmoi"
-if program_exists hub; then
-  alias git="hub"
-fi
+
+
 alias killforeman='ps aux | grep foreman | sed -E "s/ +/ /g" | cut -d " " -f 2 | xargs kill -9'
 alias loopnzb="while (True) { sleep 5; movenzb; }"
 if program_exists lazygit; then
@@ -70,6 +69,10 @@ if program_exists brew; then
 
   autoload -Uz compinit
   compinit
+fi
+
+if program_exists hub; then
+  eval "$(hub alias -s)"
 fi
 
 if program_exists mise; then
