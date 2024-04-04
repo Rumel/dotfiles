@@ -1,4 +1,5 @@
 [tools]
+bun = ['latest']
 clojure = ['latest'] 
 dotnet = ['latest']
 elixir = ['latest']
