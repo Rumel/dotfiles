@@ -41,6 +41,14 @@ movenzb() {
   fi
 }
 
+updatefedora() {
+  sudo dnf upgrade --refresh
+  sudo dnf autoremove
+  brew update && brew upgrade
+  sudo fwupdmgr get-updates
+  sudo flatpak update
+}
+
 weather() {
   curl "wttr.in/$1"
 }
