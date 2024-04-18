@@ -6,3 +6,8 @@ symbol = "🌱 "
 
 [kubernetes]
 disabled = false
+
+[time]
+disabled = false
+use_12hr = true
+time_format = '%I:%M %p'
