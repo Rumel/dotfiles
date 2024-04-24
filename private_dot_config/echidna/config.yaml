@@ -224,7 +224,7 @@
       max_results: 10
       playlist_id: PLdP6kCUEAT1_f8RxTMTC45lggW9tBI8ei
     - name: Lincoln Stars
-      id: UCREe8IzbETPDydu6NHzve9A
+      id: UCREe9IzbETPDydu6NHzve9A
       filter: (Highlights)
       max_results: 5
       playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
@@ -393,4 +393,14 @@
       filter: null
       max_results: 5
       playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
-    
+    - name: Counsel of Trent
+      id: UCvySGkfy1W8fda287KMj2CA
+      filter: null
+      max_results: 5
+      playlist_id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
+    - name: The Cordial Catholic
+      id: UCUaaz8AUKDEoWLOm22KYEtw
+      filter: null
+      max_results: 5
+      playlist_id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
+
