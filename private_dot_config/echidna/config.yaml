@@ -1,406 +1,342 @@
 ---
-  playlists:
-    - title: Highlights
-      id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
-      order: date
-    - title: Educational
-      id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
-      order: title
-    - title: Cooking
-      id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-      order: title
-    - title: Comedy
-      id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt- 
-      order: title
-    - title: Racing Channels
-      id: PLdP6kCUEAT1_f8RxTMTC45lggW9tBI8ei
-      order: title
-    - title: Hunting
-      id: PLdP6kCUEAT1-BzwicWNWOREY8omucnhHC
-      order: title
-    - title: Religion
-      id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
-      order: title
-    - title: Books
-      id: PLdP6kCUEAT1_5xcSPJl1jSOGIs5enbe2S
-      order: title
-    - title: French
-      id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
-      order: title
-  channels:
-    - name: Huskers
-      id: UCMqWeJDl7yjblwPKVNo4XfA
-      filter: ((Basketball|Football|Vollebyall).*(Highlights))|(((Highlights).*(Basketball|Football|Vollebyall))) 
-      max_results: 50 
-      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
-    - name: NHL
-      id: UCqFMzb-4AUf6WAIbl132QKA
-      filter: (Blues).*(Highlights)
-      max_results: 50 
-      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
-    - name: Cardinals
-      id: UCwaMqLYzbyp2IbFgcF_s5Og
-      filter: Highlights
-      max_results: 25
-      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
-    - name: Formula 1
-      id: UCB_qr75-ydFVKSF9Dmo6izg
-      filter: Highlights
-      max_results: 25
-      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
-    - name: Liverpool FC
-      id: UC9LQwHZoucFT94I2h6JOcjw
-      filter: HIGHLIGHTS
-      max_results: 25
-      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
-    - name: Wendover Productions
-      id: UC9RM-iSvTu1uPJb8X5yp3EQ
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
-    - name: Half as Interesting
-      id: UCuCkxoKLYO_EQ2GeFtbM_bw
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
-    - name: Adam Ragusea
-      id: UC9_p50tH3WmMslWRWKnM7dQ
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: FrenchGuyCooking
-      id: UCPzFLpOblZEaIx2lpym1l1A
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Babish Culinary Universe
-      id: UCJHA_jMfCvEnv-3kRjTCQXw
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Brian Lagerstrom
-      id: UCn5fhcGRrCvrmFibPbT6q1A
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Charlie Berens
-      id: UConQeJRfaLwJ9LbXBS5nhxQ
-      filter: null
-      max_results: 10 
-      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt- 
-    - name: Dude Dad
-      id: UCnQjDnWKwV81mXEiuiA9Vqg
-      filter: null
-      max_results: 10 
-      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
-    - name: Ethan Chlebowski
-      id: UCDq5v10l4wkV5-ZBIJJFbzQ
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: HowTobbqright
-      id: UC--MxpGXJ3LVD8KvlNzRlcA
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Jean Shorts Comedy
-      id: UCwPbo954s0LdffSSXh07E0g
-      filter: null
-      max_results: 10 
-      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
-    - name: Johnny Harris
-      id: UCmGSJVG3mCRXVOP4yZrU1Dw
-      filter: null
-      max_results: 15 
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC 
-    - name: Joshua Weissman
-      id: UChBEbMKI1eCcejTtmI32UEw
-      filter: null
-      max_results: 15
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Mad Scientist BBQ
-      id: UCselvHbb5ah0sEqZrFa-7nA
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Mark Rober
-      id: UCY1kMZp36IQSyNx_9h4mpCg
-      filter: null
-      max_results: 5 
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
-    - name: Not another cooking show
-      id: UCuL-5ytBmu6KG0BwjSFaD0g
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: City Beautiful
-      id: UCGc8ZVCsrR3dAuhvUbkbToQ
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
-    - name: Polymatter
-      id: UCgNg3vwj3xt7QOrcIDaHdFg
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
-    - name: SortedFood
-      id: UCfyehHM_eo4g5JUyWmms2LA
-      filter: null
-      max_results: 15
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Trey Kennedy
-      id: UCP7LUz8TKiOARTD8LdrVgXQ
-      filter: null
-      max_results: 10 
-      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
-    - name: You Betcha
-      id: UCM7I_NC8mIyNLlslSi129ow
-      filter: null
-      max_results: 10 
-      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
-    - name: You Suck at Cooking
-      id: UCekQr9znsk2vWxBo3YiLq2w
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: RealLifeLore
-      id: UCP5tjEmvPItGyLhmjdwP7Ww
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
-    - name: CompanyMan
-      id: UCQMyhrt92_8XM0KgZH6VnRg
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
-    - name: Frank James
-      id: UCxc0c4cOfFmSUnzX9uY7Jww
-      filter: ^16 Personalities
-      max_results: 25
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
-    - name: Matty Matheson
-      id: UCpqH8-BBNTsluhcOzFKWLuw
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Future Proof
-      id: UC-OJ-24roEfQ_-PCnLJSckg
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
-    - name: HoldernessFamilyVlogs
-      id: UCq0a1MKwg_l0tN56r8u1ZSA
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
-    - name: Holderness Family Music
-      id: UCl2axinLKd00nMBW6RTASag
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
-    - name: Fireship
-      id: UCsBjURrPoezykLs9EqgamOA
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
-    - name: HellthyJunkFood
-      id: UCY1Yc3xA1aY0lqnKUTDTi7A
-      filter: null
-      max_results: 15
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Tommo F1
-      id: UCFHaLSX-Kqy5pGTszklkE8w
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT1_f8RxTMTC45lggW9tBI8ei
-    - name: Chain Bear
-      id: UC7u-Dg0jb7g9s7XjmtJrtpg
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT1_f8RxTMTC45lggW9tBI8ei
-    - name: Josh revell
-      id: UCSawmZ2PP6R7EURKRMNYXMw
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT1_f8RxTMTC45lggW9tBI8ei
-    - name: Lincoln Stars
-      id: UCREe9IzbETPDydu6NHzve9A
-      filter: (Highlights)
-      max_results: 5
-      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
-    - name: Meat Church BBQ
-      id: UCPjkdaqksNWgA63aZfQ2bAQ
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Eater
-      id: UCRzPUBhXUZHclB7B5bURFXw
-      filter: null
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl 
-    - name: First We Feast
-      id: UCPD_bxCRGpmmeQcbe2kpPaA
-      filter: (Burger Show)|(Burger Scholar)
-      max_results: 10
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: ThatDudeCanCook
-      filter: null
-      id: UC19OYOBqkgVqgTIQxbsPdlw
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: ANTI-CHEF
-      filter: null
-      id: UCR8gyS7wt4CmDwJ_JC6KP_g
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Samong Outdoors
-      filter: null
-      id: UCjltlCCNlkir3ATTSIamnnA
-      max_results: 5
-      playlist_id: PLdP6kCUEAT1-BzwicWNWOREY8omucnhHC
-    - name: Chud's BBQ
-      filter: null
-      id: UCsLTjOX249AJsrl9iJh4CSw
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Epicurious
-      filter: null
-      id: UCcjhYlL1WRBjKaJsMH_h7Lg
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Matt Whitman
-      filter: null
-      id: UC3vIOVJiXigzVDA2TYqaa0Q
-      max_results: 5
-      playlist_id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
-    - name: Brian Holdsworth 
-      filter: null
-      id: UCaMmTDOIoCnEywuR4attUGA
-      max_results: 5
-      playlist_id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
-    - name: Pints with Aquinas 
-      filter: null
-      id: UClh4JeqYB1QN6f1h_bzmEng
-      max_results: 5
-      playlist_id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
-    - name: Library of a Viking 
-      id: UCu884YmU8_QrOz94Hbcy96Q 
-      filter: null
-      max_results: 5 
-      playlist_id: PLdP6kCUEAT1_5xcSPJl1jSOGIs5enbe2S
-    - name: Brandon Sanderson 
-      id: UC3g-w83Cb5pEAu5UmRrge-A 
-      filter: null
-      max_results: 5 
-      playlist_id: PLdP6kCUEAT1_5xcSPJl1jSOGIs5enbe2S
-    - name: Daily Disciple 
-      id: UCVl22-6Mt0BxkI6MPwjZimw 
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
-    - name: Charlie Anderson
-      filter: null
-      id: UCVJ65ACOGn5FCitRoD9qXEw
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: French Cooking Academy
-      filter: null
-      id: UC0lG3Ihe4LGV851lODRIS5g
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Hello Saints
-      filter: null
-      id: UCp7-cFBse_-lN03U0QvMZyw
-      max_results: 5
-      playlist_id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
-    - name: MLB
-      id: UCoLrcjPV5PbUrUyXq5mjc_A 
-      filter: Cardinals
-      max_results: 25
-      playlist_id: PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
-    - name: Smoking Dad BBQ
-      id: UCy2OStmU5fbTpGe7FgQCpqQ
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Guga 
-      id: UCnB5HTIi44wDBD56KeT2hNA
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Guga Foods
-      id: UCfE5Cz44GlZVyoaYTHJbuZw
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Hey Grill Hey 
-      id: UCE8q1FcoQ0wBypZb3jXw7Pg
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Cooking with Ry 
-      id: UCs_8-ZsleBuKf637n2twN-g 
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: The Flat Top King 
-      id: UCIuJcUNvZCmggVfvQhHMIHg 
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    # - name: The Bearded Butchers 
-    #   id: UC0r6S4hmYdRcDnw7zey7Myg 
-    #   filter: null
-    #   max_results: 5
-    #   playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Harry Soo 
-      id: UC4dtbTXdvjo272b5x_mxRBw 
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: Gulf Coast Smoke 
-      id: UCIpdJoqzoIuFgqnnJwQGf6Q 
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
-    - name: francaisavecnelly
-      id: UClEGQZlQURxTiMdwBPqiKDQ
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
-    - name: French mornings with Elisa
-      id: UCbj8Qov-9b5WTU1X4y7Yt-w
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
-    - name: EasyFrench 
-      id: UCoUWq2QawqdC3-nRXKk-JUw
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
-    - name: French in Plain Sight  
-      id: UC7dUg3m9dD3nRqb5joq2crQ
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
-    - name: Piece of French
-      id: UCVzyfpNuFF4ENY8zNTIW7ug
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
-    - name: innerFrench
-      id: UCI4xp8qHD1MDErkqxb1dPbA 
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
-    - name: Counsel of Trent
-      id: UCvySGkfy1W8fda287KMj2CA
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
-    - name: The Cordial Catholic
-      id: UCUaaz8AUKDEoWLOm22KYEtw
-      filter: null
-      max_results: 5
-      playlist_id: PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
+playlists:
+  - title: Highlights
+    id: &highlights_id PLdP6kCUEAT1_PZxWWvTGsWi-YMw1bVGl2
+    order: date
+  - title: Educational
+    id: &educational_id PLdP6kCUEAT1-YXNEakChWUjC9dy_TaPtC
+    order: title
+  - title: Cooking
+    id: &cooking_id PLdP6kCUEAT18C6Ah2FZF5h-oMtDDmQLXl
+    order: title
+  - title: Comedy
+    id: &comedy_id PLdP6kCUEAT18rCQPFKtK6J9J3AuLLXVt-
+    order: title
+  - title: Racing Channels
+    id: &racing_id PLdP6kCUEAT1_f8RxTMTC45lggW9tBI8ei
+    order: title
+  - title: Hunting
+    id: &hunting_id PLdP6kCUEAT1-BzwicWNWOREY8omucnhHC
+    order: title
+  - title: Religion
+    id: &religion_id PLdP6kCUEAT1-8E1cTuRU-2r8aIewPpVqV
+    order: title
+  - title: Books
+    id: &books_id PLdP6kCUEAT1_5xcSPJl1jSOGIs5enbe2S
+    order: title
+  - title: French
+    id: &french_id PLdP6kCUEAT19ZCMe6jZgh3gvLgwemu11p
+    order: title
+default:
+  shared: &shared
+    filter: null
+    max_results: 5
+channels:
+  #### Books ####
+  - name: Brandon Sanderson
+    <<: *shared
+    id: UC3g-w83Cb5pEAu5UmRrge-A
+    playlist_id: *books_id
+  - name: Library of a Viking
+    <<: *shared
+    id: UCu884YmU8_QrOz94Hbcy96Q
+    playlist_id: *books_id
 
+  #### Comedy #####
+  - name: Charlie Berens
+    <<: *shared
+    id: UConQeJRfaLwJ9LbXBS5nhxQ
+    playlist_id: *comedy_id
+  - name: Dude Dad
+    <<: *shared
+    id: UCnQjDnWKwV81mXEiuiA9Vqg
+    playlist_id: *comedy_id
+  - name: HoldernessFamilyVlogs
+    <<: *shared
+    id: UCq0a1MKwg_l0tN56r8u1ZSA
+    playlist_id: *comedy_id
+  - name: Holderness Family Music
+    <<: *shared
+    id: UCl2axinLKd00nMBW6RTASag
+    playlist_id: *comedy_id
+  - name: Jean Shorts Comedy
+    <<: *shared
+    id: UCwPbo954s0LdffSSXh07E0g
+    playlist_id: *comedy_id
+  - name: Trey Kennedy
+    <<: *shared
+    id: UCP7LUz8TKiOARTD8LdrVgXQ
+    playlist_id: *comedy_id
+  - name: You Betcha
+    <<: *shared
+    id: UCM7I_NC8mIyNLlslSi129ow
+    playlist_id: *comedy_id
+
+  #### Cooking ####
+  - name: Adam Ragusea
+    <<: *shared
+    id: UC9_p50tH3WmMslWRWKnM7dQ
+    playlist_id: *cooking_id
+  - name: ANTI-CHEF
+    <<: *shared
+    id: UCR8gyS7wt4CmDwJ_JC6KP_g
+    playlist_id: *cooking_id
+  - name: Babish Culinary Universe
+    <<: *shared
+    id: UCJHA_jMfCvEnv-3kRjTCQXw
+    playlist_id: *cooking_id
+  - name: Brian Lagerstrom
+    <<: *shared
+    id: UCn5fhcGRrCvrmFibPbT6q1A
+    playlist_id: *cooking_id
+  - name: Charlie Anderson
+    <<: *shared
+    id: UCVJ65ACOGn5FCitRoD9qXEw
+    playlist_id: *cooking_id
+  - name: Chud's BBQ
+    <<: *shared
+    id: UCsLTjOX249AJsrl9iJh4CSw
+    playlist_id: *cooking_id
+  - name: Cooking with Ry
+    <<: *shared
+    id: UCs_8-ZsleBuKf637n2twN-g
+    playlist_id: *cooking_id
+  - name: Eater
+    <<: *shared
+    id: UCRzPUBhXUZHclB7B5bURFXw
+    playlist_id: *cooking_id
+  - name: Epicurious
+    <<: *shared
+    id: UCcjhYlL1WRBjKaJsMH_h7Lg
+    playlist_id: *cooking_id
+  - name: Ethan Chlebowski
+    <<: *shared
+    id: UCDq5v10l4wkV5-ZBIJJFbzQ
+    playlist_id: *cooking_id
+  - name: First We Feast
+    id: UCPD_bxCRGpmmeQcbe2kpPaA
+    filter: (Burger Show)|(Burger Scholar)
+    max_results: 10
+    playlist_id: *cooking_id
+  - name: Flat Top King
+    <<: *shared
+    id: UCIuJcUNvZCmggVfvQhHMIHg
+    playlist_id: *cooking_id
+  - name: French Cooking Academy
+    <<: *shared
+    id: UC0lG3Ihe4LGV851lODRIS5g
+    playlist_id: *cooking_id
+  - name: FrenchGuyCooking
+    <<: *shared
+    id: UCPzFLpOblZEaIx2lpym1l1A
+    playlist_id: *cooking_id
+  - name: Gulf Coast Smoke
+    <<: *shared
+    id: UCIpdJoqzoIuFgqnnJwQGf6Q
+    playlist_id: *cooking_id
+  - name: Guga
+    <<: *shared
+    id: UCnB5HTIi44wDBD56KeT2hNA
+    playlist_id: *cooking_id
+  - name: Guga Foods
+    <<: *shared
+    id: UCfE5Cz44GlZVyoaYTHJbuZw
+    playlist_id: *cooking_id
+  - name: Harry Soo
+    <<: *shared
+    id: UC4dtbTXdvjo272b5x_mxRBw
+    playlist_id: *cooking_id
+  - name: Hey Grill Hey
+    <<: *shared
+    id: UCE8q1FcoQ0wBypZb3jXw7Pg
+    playlist_id: *cooking_id
+  - name: HowTobbqright
+    <<: *shared
+    id: UC--MxpGXJ3LVD8KvlNzRlcA
+    playlist_id: *cooking_id
+  - name: Joshua Weissman
+    <<: *shared
+    id: UChBEbMKI1eCcejTtmI32UEw
+    playlist_id: *cooking_id
+  - name: Mad Scientist BBQ
+    <<: *shared
+    id: UCselvHbb5ah0sEqZrFa-7nA
+    playlist_id: *cooking_id
+  - name: Matty Matheson
+    <<: *shared
+    id: UCpqH8-BBNTsluhcOzFKWLuw
+    playlist_id: *cooking_id
+  - name: Meat Church BBQ
+    <<: *shared
+    id: UCPjkdaqksNWgA63aZfQ2bAQ
+    playlist_id: *cooking_id
+  - name: Not another cooking show
+    <<: *shared
+    id: UCuL-5ytBmu6KG0BwjSFaD0g
+    playlist_id: *cooking_id
+  - name: Smoking Dad BBQ
+    <<: *shared
+    id: UCy2OStmU5fbTpGe7FgQCpqQ
+    playlist_id: *cooking_id
+  - name: SortedFood
+    <<: *shared
+    id: UCfyehHM_eo4g5JUyWmms2LA
+    playlist_id: *cooking_id
+  - name: ThatDudeCanCook
+    <<: *shared
+    id: UC19OYOBqkgVqgTIQxbsPdlw
+    playlist_id: *cooking_id
+  - name: You Suck at Cooking
+    <<: *shared
+    id: UCekQr9znsk2vWxBo3YiLq2w
+    playlist_id: *cooking_id
+
+  #### Educational ####
+  - name: City Beautiful
+    <<: *shared
+    id: UCGc8ZVCsrR3dAuhvUbkbToQ
+    playlist_id: *educational_id
+  - name: CompanyMan
+    <<: *shared
+    id: UCQMyhrt92_8XM0KgZH6VnRg
+    playlist_id: *educational_id
+  - name: Fireship
+    <<: *shared
+    id: UCsBjURrPoezykLs9EqgamOA
+    playlist_id: *educational_id
+  - name: Frank James
+    <<: *shared
+    id: UCxc0c4cOfFmSUnzX9uY7Jww
+    filter: ^16 Personalities
+    playlist_id: *educational_id
+  - name: Half as Interesting
+    <<: *shared
+    id: UCuCkxoKLYO_EQ2GeFtbM_bw
+    playlist_id: *educational_id
+  - name: Johnny Harris
+    <<: *shared
+    id: UCmGSJVG3mCRXVOP4yZrU1Dw
+    playlist_id: *educational_id
+  - name: Mark Rober
+    <<: *shared
+    id: UCY1kMZp36IQSyNx_9h4mpCg
+    playlist_id: *educational_id
+  - name: Polymatter
+    <<: *shared
+    id: UCgNg3vwj3xt7QOrcIDaHdFg
+    playlist_id: *educational_id
+  - name: RealLifeLore
+    <<: *shared
+    id: UCP5tjEmvPItGyLhmjdwP7Ww
+    playlist_id: *educational_id
+  - name: Wendover Productions
+    <<: *shared
+    id: UC9RM-iSvTu1uPJb8X5yp3EQ
+    playlist_id: *educational_id
+
+  #### French ####
+  - name: EasyFrench
+    <<: *shared
+    id: UCoUWq2QawqdC3-nRXKk-JUw
+    playlist_id: *french_id
+  - name: francaisavecnelly
+    <<: *shared
+    id: UClEGQZlQURxTiMdwBPqiKDQ
+    playlist_id: *french_id
+  - name: French in Plain Sight
+    <<: *shared
+    id: UC7dUg3m9dD3nRqb5joq2crQ
+    playlist_id: *french_id
+  - name: French mornings with Elisa
+    <<: *shared
+    id: UCbj8Qov-9b5WTU1X4y7Yt-w
+    playlist_id: *french_id
+  - name: innerFrench
+    <<: *shared
+    id: UCI4xp8qHD1MDErkqxb1dPbA
+    playlist_id: *french_id
+  - name: Piece of French
+    <<: *shared
+    id: UCVzyfpNuFF4ENY8zNTIW7ug
+    playlist_id: *french_id
+
+  #### Highlights ####
+  - name: Cardinals
+    <<: *shared
+    id: UCwaMqLYzbyp2IbFgcF_s5Og
+    filter: Highlights
+    playlist_id: *highlights_id
+  - name: Formula 1
+    <<: *shared
+    id: UCB_qr75-ydFVKSF9Dmo6izg
+    filter: Highlights
+    playlist_id: *highlights_id
+  - name: Huskers
+    <<: *shared
+    id: UCMqWeJDl7yjblwPKVNo4XfA
+    filter: ((Basketball|Football|Vollebyall).*(Highlights))|(((Highlights).*(Basketball|Football|Vollebyall)))
+    playlist_id: *highlights_id
+  - name: Liverpool FC
+    <<: *shared
+    id: UC9LQwHZoucFT94I2h6JOcjw
+    playlist_id: *highlights_id
+  - name: MLB
+    id: UCoLrcjPV5PbUrUyXq5mjc_A
+    filter: Cardinals
+    max_results: 25
+    playlist_id: *highlights_id
+  - name: NHL
+    <<: *shared
+    id: UCqFMzb-4AUf6WAIbl132QKA
+    filter: (Blues).*(Highlights)
+    playlist_id: *highlights_id
+
+  #### Hunting ####
+  - name: Samong Outdoors
+    <<: *shared
+    id: UCjltlCCNlkir3ATTSIamnnA
+    playlist_id: *hunting_id
+
+  #### Racing ####
+  - name: Chain Bear
+    <<: *shared
+    id: UC7u-Dg0jb7g9s7XjmtJrtpg
+    playlist_id: *racing_id
+  - name: Josh revell
+    <<: *shared
+    id: UCSawmZ2PP6R7EURKRMNYXMw
+    playlist_id: *racing_id
+  - name: Tommo F1
+    <<: *shared
+    id: UCFHaLSX-Kqy5pGTszklkE8w
+    playlist_id: *racing_id
+
+  #### Religion ####
+  - name: Brian Holdsworth
+    <<: *shared
+    id: UCaMmTDOIoCnEywuR4attUGA
+    playlist_id: *religion_id
+  - name: Cordial Catholic
+    <<: *shared
+    id: UCUaaz8AUKDEoWLOm22KYEtw
+    playlist_id: *religion_id
+  - name: Counsel of Trent
+    <<: *shared
+    id: UCvySGkfy1W8fda287KMj2CA
+    playlist_id: *religion_id
+  - name: Daily Disciple
+    <<: *shared
+    id: UCVl22-6Mt0BxkI6MPwjZimw
+    playlist_id: *religion_id
+  - name: Hello Saints
+    <<: *shared
+    id: UCp7-cFBse_-lN03U0QvMZyw
+    playlist_id: *religion_id
+  - name: Matt Whitman
+    <<: *shared
+    id: UC3vIOVJiXigzVDA2TYqaa0Q
+    playlist_id: *religion_id
+  - name: Pints with Aquinas
+    <<: *shared
+    id: UClh4JeqYB1QN6f1h_bzmEng
+    playlist_id: *religion_id
