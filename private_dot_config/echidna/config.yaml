@@ -261,35 +261,35 @@ channels:
     playlist_id: *french_id
 
   #### Highlights ####
-  - name: Cardinals
-    <<: *shared
-    id: UCwaMqLYzbyp2IbFgcF_s5Og
-    filter: Highlights
-    playlist_id: *highlights_id
-  - name: Formula 1
-    <<: *shared
-    id: UCB_qr75-ydFVKSF9Dmo6izg
-    filter: Highlights
-    playlist_id: *highlights_id
-  - name: Huskers
-    <<: *shared
-    id: UCMqWeJDl7yjblwPKVNo4XfA
-    filter: ((Basketball|Football|Vollebyall).*(Highlights))|(((Highlights).*(Basketball|Football|Vollebyall)))
-    playlist_id: *highlights_id
-  - name: Liverpool FC
-    <<: *shared
-    id: UC9LQwHZoucFT94I2h6JOcjw
-    playlist_id: *highlights_id
-  - name: MLB
-    id: UCoLrcjPV5PbUrUyXq5mjc_A
-    filter: Cardinals
-    max_results: 25
-    playlist_id: *highlights_id
-  - name: NHL
-    <<: *shared
-    id: UCqFMzb-4AUf6WAIbl132QKA
-    filter: (Blues).*(Highlights)
-    playlist_id: *highlights_id
+  # - name: Cardinals
+  #   <<: *shared
+  #   id: UCwaMqLYzbyp2IbFgcF_s5Og
+  #   filter: Highlights
+  #   playlist_id: *highlights_id
+  # - name: Formula 1
+  #   <<: *shared
+  #   id: UCB_qr75-ydFVKSF9Dmo6izg
+  #   filter: Highlights
+  #   playlist_id: *highlights_id
+  # - name: Huskers
+  #   <<: *shared
+  #   id: UCMqWeJDl7yjblwPKVNo4XfA
+  #   filter: ((Basketball|Football|Vollebyall).*(Highlights))|(((Highlights).*(Basketball|Football|Vollebyall)))
+  #   playlist_id: *highlights_id
+  # - name: Liverpool FC
+  #   <<: *shared
+  #   id: UC9LQwHZoucFT94I2h6JOcjw
+  #   playlist_id: *highlights_id
+  # - name: MLB
+  #   id: UCoLrcjPV5PbUrUyXq5mjc_A
+  #   filter: Cardinals
+  #   max_results: 25
+  #   playlist_id: *highlights_id
+  # - name: NHL
+  #   <<: *shared
+  #   id: UCqFMzb-4AUf6WAIbl132QKA
+  #   filter: (Blues).*(Highlights)
+  #   playlist_id: *highlights_id
 
   #### Hunting ####
   - name: Samong Outdoors
