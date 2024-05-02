@@ -8,10 +8,7 @@ print_message() {
 }
 
 print_message "Installing i3"
-sudo dnf groups install "i3 desktop" -y
-
-print_message "Installing some more tools"
-sudo dnf install -y cava playerctl polybar rofi xev
+sudo dnf install -y cava i3 feh kitty playerctl polybar rofi xev
 
 print_message "Checking for libinput-gestures"
 if [ ! -d "$HOME/Code/libinput-gestures" ]; then
