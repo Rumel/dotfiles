@@ -8,19 +8,6 @@ print_message() {
 }
 
 print_message "Installing i3"
-sudo dnf install -y cava i3 feh kitty playerctl polybar rofi xev
-
-print_message "Checking for libinput-gestures"
-if [ ! -d "$HOME/Code/libinput-gestures" ]; then
-	print_message "Installing libinput-gestures"
-	mkdir -p ~/Code
-	git clone https://github.com/bulletmark/libinput-gestures.git ~/Code/libinput-gestures
-	sudo dnf install -y wmctrl xdotool
-	sudo gpasswd -a $USER input
-
-	cd ~/Code/libinput-gestures
-	sudo ./libinput-gestures-setup install
-	libinput-gestures-setup autostart start
-fi
+sudo dnf install -y cava i3 feh kitty playerctl polybar rofi xdotool xev
 
 print_message "Remember to apply dotfiles"
