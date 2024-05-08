@@ -8,6 +8,6 @@ print_message() {
 }
 
 print_message "Installing i3"
-sudo dnf install -y cava i3 feh kitty playerctl polybar rofi xdotool xev
+sudo dnf install -y cava i3 feh kitty playerctl polybar rofi xdotool xclip xev
 
 print_message "Remember to apply dotfiles"
