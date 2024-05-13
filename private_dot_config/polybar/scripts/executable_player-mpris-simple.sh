@@ -1,11 +1,28 @@
 #!/bin/sh
 
-player_status=$(playerctl status 2> /dev/null)
+player_status=$(playerctl status 2>/dev/null)
 
 if [ "$player_status" = "Playing" ]; then
-    echo "#1 $(playerctl metadata artist) - $(playerctl metadata title)"
+  ARTIST=$(playerctl metadata artist 2>/dev/null)
+  TITLE=$(playerctl metadata title 2>/dev/null)
+  if [ -z "$ARTIST" ]; then
+    STR=$TITLE
+  else
+    STR="$ARTIST - $TITLE"
+  fi
+
+	echo ${STR:0:30}
 elif [ "$player_status" = "Paused" ]; then
-    echo "#2 $(playerctl metadata artist) - $(playerctl metadata title)"
+  ARTIST=$(playerctl metadata artist 2>/dev/null)
+  TITLE=$(playerctl metadata title 2>/dev/null)
+  if [ -z "$ARTIST" ]; then
+    STR=$TITLE
+  else
+    STR="$ARTIST - $TITLE"
+  fi
+
+  STR="Paused $STR"
+  echo ${STR:0:30}
 else
-    echo ""
+	echo ""
 fi
