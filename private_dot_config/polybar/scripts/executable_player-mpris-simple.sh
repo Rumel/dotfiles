@@ -8,7 +8,7 @@ if [ "$player_status" = "Playing" ]; then
   if [ -z "$ARTIST" ]; then
     STR=$TITLE
   else
-    STR="$ARTIST - $TITLE"
+    STR="$TITLE - $ARTIST"
   fi
 
 	echo ${STR:0:30}
@@ -18,10 +18,10 @@ elif [ "$player_status" = "Paused" ]; then
   if [ -z "$ARTIST" ]; then
     STR=$TITLE
   else
-    STR="$ARTIST - $TITLE"
+    STR="$TITLE - $ARTIST"
   fi
 
-  STR="Paused $STR"
+  STR="󰏤 $STR"
   echo ${STR:0:30}
 else
 	echo ""
