@@ -192,6 +192,10 @@ channels:
     playlist_id: *cooking_id
 
   #### Educational ####
+  - name: Baseball Doesn't Exist 
+    <<: *shared
+    id: UCXjvsikVclbNRGRlzr8jTEg
+    playlist_id: *educational_id
   - name: City Beautiful
     <<: *shared
     id: UCGc8ZVCsrR3dAuhvUbkbToQ
@@ -216,6 +220,10 @@ channels:
   - name: Johnny Harris
     <<: *shared
     id: UCmGSJVG3mCRXVOP4yZrU1Dw
+    playlist_id: *educational_id
+  - name: Made The Cut
+    <<: *shared
+    id: UCWQXiB9DidR74rOPeupt8nQ
     playlist_id: *educational_id
   - name: Mark Rober
     <<: *shared
@@ -312,9 +320,17 @@ channels:
     playlist_id: *racing_id
 
   #### Religion ####
+  - name: Breaking in the Habit 
+    <<: *shared
+    id: UCDcdVPVsJRxAVKq4vY0NYeg 
+    playlist_id: *religion_id
   - name: Brian Holdsworth
     <<: *shared
     id: UCaMmTDOIoCnEywuR4attUGA
+    playlist_id: *religion_id
+  - name: The Catechumen 
+    <<: *shared
+    id: UCWhBne_SBlP7phTPinyWTwg
     playlist_id: *religion_id
   - name: Cordial Catholic
     <<: *shared
@@ -324,13 +340,29 @@ channels:
     <<: *shared
     id: UCvySGkfy1W8fda287KMj2CA
     playlist_id: *religion_id
-  - name: Daily Disciple
+  - name: Father David Michael Moses 
     <<: *shared
-    id: UCVl22-6Mt0BxkI6MPwjZimw
+    id: UCVh3F18ZFTrLZvkUTvsZEMw
     playlist_id: *religion_id
+  - name: GabiAfterHours 
+    <<: *shared
+    id: UCukr20DPEICYc6nRLGvf9Bg
+    playlist_id: *religion_id
+  - name: Gospel Simplicity 
+    <<: *shared
+    id: UCfQKDYGkX3nZ7Q9cAc-4rdg
+    playlist_id: *religion_id
+  # - name: Daily Disciple
+  #   <<: *shared
+  #   id: UCVl22-6Mt0BxkI6MPwjZimw
+  #   playlist_id: *religion_id
   - name: Hello Saints
     <<: *shared
     id: UCp7-cFBse_-lN03U0QvMZyw
+    playlist_id: *religion_id
+  - name: Keith Nester 
+    <<: *shared
+    id: UCCIcOC_ats_S_qCAnvwzunw
     playlist_id: *religion_id
   - name: Matt Whitman
     <<: *shared
@@ -339,4 +371,20 @@ channels:
   - name: Pints with Aquinas
     <<: *shared
     id: UClh4JeqYB1QN6f1h_bzmEng
+    playlist_id: *religion_id
+  - name: The Religious Hippie 
+    <<: *shared
+    id: UCX7C7Gh0oHVfvj5WKov_5HQ
+    playlist_id: *religion_id
+  - name: Shameless Popery Podcast 
+    <<: *shared
+    id: UCDjjcYcw4wsrpmXc0vRRChw
+    playlist_id: *religion_id
+  - name: Tim Wildsmith 
+    <<: *shared
+    id: UCb6Tr0sc1VePlby-wQ-QlkA
+    playlist_id: *religion_id
+  - name: Truth Unites 
+    <<: *shared
+    id: UCtWDnUokOD--s2aFxLT5uVA
     playlist_id: *religion_id
